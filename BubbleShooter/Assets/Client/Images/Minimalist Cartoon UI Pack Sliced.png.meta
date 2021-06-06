@@ -1,0 +1,3996 @@
+fileFormatVersion: 2
+guid: 7a90fcdada22c9b429479d5933a03692
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: MnimalistToon_FRAME01
+  - first:
+      213: 21300002
+    second: Minimalist CartoonMnimalistToon_FRAME02 UI Pack_1
+  - first:
+      213: 21300004
+    second: MnimalistToon_FRAME03
+  - first:
+      213: 21300006
+    second: MnimalistToon_FRAME04
+  - first:
+      213: 21300008
+    second: MnimalistToon_FRAME05
+  - first:
+      213: 21300010
+    second: MnimalistToon_FRAME06
+  - first:
+      213: 21300012
+    second: MnimalistToon_FRAME07
+  - first:
+      213: 21300014
+    second: Minimalist Cartoon UI Pack_7
+  - first:
+      213: 21300016
+    second: Minimalist Cartoon UI Pack_8
+  - first:
+      213: 21300018
+    second: Minimalist Cartoon UI Pack_9
+  - first:
+      213: 21300020
+    second: Minimalist Cartoon UI Pack_10
+  - first:
+      213: 21300022
+    second: Minimalist Cartoon UI Pack_11
+  - first:
+      213: 21300024
+    second: Minimalist Cartoon UI Pack_12
+  - first:
+      213: 21300026
+    second: Minimalist Cartoon UI Pack_13
+  - first:
+      213: 21300028
+    second: Minimalist Cartoon UI Pack_14
+  - first:
+      213: 21300030
+    second: Minimalist Cartoon UI Pack_15
+  - first:
+      213: 21300032
+    second: Minimalist Cartoon UI Pack_16
+  - first:
+      213: 21300034
+    second: Minimalist Cartoon UI Pack_17
+  - first:
+      213: 21300036
+    second: Minimalist Cartoon UI Pack_18
+  - first:
+      213: 21300038
+    second: MnimalistToon_BKG01
+  - first:
+      213: 21300040
+    second: MnimalistToon_BKG02
+  - first:
+      213: 21300042
+    second: MnimalistToon_BKG03
+  - first:
+      213: 21300044
+    second: MnimalistToon_BKG04
+  - first:
+      213: 21300046
+    second: MnimalistToon_BKG05
+  - first:
+      213: 21300048
+    second: MnimalistToon_BKG06
+  - first:
+      213: 21300050
+    second: MnimalistToon_BKG07
+  - first:
+      213: 21300052
+    second: MnimalistToon_Silhouette05
+  - first:
+      213: 21300054
+    second: MnimalistToon_SLOT_Black01
+  - first:
+      213: 21300056
+    second: MnimalistToon_SLOT_Black02
+  - first:
+      213: 21300058
+    second: MnimalistToon_SLOT_Black03
+  - first:
+      213: 21300060
+    second: MnimalistToon_SLOT_Indigo01
+  - first:
+      213: 21300062
+    second: MnimalistToon_SLOT_Indigo02
+  - first:
+      213: 21300064
+    second: MnimalistToon_SLOT_Indigo03
+  - first:
+      213: 21300066
+    second: MnimalistToon_SLOT_Musgo01
+  - first:
+      213: 21300068
+    second: MnimalistToon_SLOT_Musgo02
+  - first:
+      213: 21300070
+    second: MnimalistToon_SLOT_Musgo03
+  - first:
+      213: 21300072
+    second: MnimalistToon_SLOT_Simple01
+  - first:
+      213: 21300074
+    second: MnimalistToon_SLOT_Bege02
+  - first:
+      213: 21300076
+    second: MnimalistToon_SLOT_Bege03
+  - first:
+      213: 21300078
+    second: MnimalistToon_SLOT_Bege01
+  - first:
+      213: 21300080
+    second: Minimalist Cartoon UI Pack 2_21
+  - first:
+      213: 21300082
+    second: Minimalist Cartoon UI Pack 2_22
+  - first:
+      213: 21300084
+    second: MnimalistToon_SLOT_Green03
+  - first:
+      213: 21300086
+    second: MnimalistToon_SLOT_Green01
+  - first:
+      213: 21300088
+    second: MnimalistToon_SLOT_Green02
+  - first:
+      213: 21300090
+    second: MnimalistToon_SLOT_LightBlue01
+  - first:
+      213: 21300092
+    second: MnimalistToon_SLOT_LightBlue02
+  - first:
+      213: 21300094
+    second: MnimalistToon_SLOT_LightBlue03
+  - first:
+      213: 21300096
+    second: MnimalistToon_SLOT_Blue03
+  - first:
+      213: 21300098
+    second: MnimalistToon_SLOT_Blue01
+  - first:
+      213: 21300100
+    second: MnimalistToon_SLOT_Blue02
+  - first:
+      213: 21300102
+    second: MnimalistToon_SIMPLEBAR01
+  - first:
+      213: 21300104
+    second: MnimalistToon_SQUARE01
+  - first:
+      213: 21300106
+    second: MnimalistToon_SQUARE02
+  - first:
+      213: 21300108
+    second: MnimalistToon_SQUARE03
+  - first:
+      213: 21300110
+    second: MnimalistToon_SQUARE04
+  - first:
+      213: 21300112
+    second: MnimalistToon_CIRCLE01
+  - first:
+      213: 21300114
+    second: MnimalistToon_CIRCLE02
+  - first:
+      213: 21300116
+    second: MnimalistToon_CIRCLE03
+  - first:
+      213: 21300118
+    second: MnimalistToon_Silhouette06
+  - first:
+      213: 21300120
+    second: MnimalistToon_SLOT_Skin01
+  - first:
+      213: 21300122
+    second: MnimalistToon_SLOT_Skin02
+  - first:
+      213: 21300124
+    second: MnimalistToon_SLOT_Skin03
+  - first:
+      213: 21300126
+    second: MnimalistToon_SIMPLEBAR02
+  - first:
+      213: 21300128
+    second: MnimalistToon_SLOT_Brown01
+  - first:
+      213: 21300130
+    second: MnimalistToon_SLOT_Brown02
+  - first:
+      213: 21300132
+    second: MnimalistToon_SLOT_Brown03
+  - first:
+      213: 21300134
+    second: MnimalistToon_SIMPLEBAR03
+  - first:
+      213: 21300136
+    second: MnimalistToon_SQUARE05
+  - first:
+      213: 21300138
+    second: MnimalistToon_SQUARE06
+  - first:
+      213: 21300140
+    second: MnimalistToon_SQUARE07
+  - first:
+      213: 21300142
+    second: MnimalistToon_SQUARE08
+  - first:
+      213: 21300144
+    second: MnimalistToon_SIMPLEBAR04
+  - first:
+      213: 21300146
+    second: MnimalistToon_SLOT_Yellow01
+  - first:
+      213: 21300148
+    second: MnimalistToon_SLOT_Yellow02
+  - first:
+      213: 21300150
+    second: MnimalistToon_SLOT_Yellow03
+  - first:
+      213: 21300152
+    second: MnimalistToon_DEFAULT_SLOT03
+  - first:
+      213: 21300154
+    second: MnimalistToon_DEFAULT_BAR01
+  - first:
+      213: 21300156
+    second: MnimalistToon_SIMPLEBAR05
+  - first:
+      213: 21300158
+    second: MnimalistToon_DEFAULT_SLOT01
+  - first:
+      213: 21300160
+    second: MnimalistToon_DEFAULT_SLOT02
+  - first:
+      213: 21300162
+    second: Minimalist Cartoon UI Pack 2_62
+  - first:
+      213: 21300164
+    second: MnimalistToon_SLOT_Simple02
+  - first:
+      213: 21300166
+    second: MnimalistToon_SLOT_Simple03
+  - first:
+      213: 21300168
+    second: MnimalistToon_SIMPLEBAR06
+  - first:
+      213: 21300170
+    second: MnimalistToon_BOTTON01
+  - first:
+      213: 21300172
+    second: MnimalistToon_BOTTON02
+  - first:
+      213: 21300174
+    second: MnimalistToon_BOTTON03
+  - first:
+      213: 21300176
+    second: MnimalistToon_BOTTON04
+  - first:
+      213: 21300178
+    second: MnimalistToon_BOTTON05
+  - first:
+      213: 21300180
+    second: MnimalistToon_DEFAULT_BAR02
+  - first:
+      213: 21300182
+    second: MnimalistToon_DEFAULT_SQUARE
+  - first:
+      213: 21300184
+    second: MnimalistToon_SIMPLEBAR07
+  - first:
+      213: 21300186
+    second: MnimalistToon_DEFAULT_SQUARESMALL
+  - first:
+      213: 21300188
+    second: MnimalistToon_DEFAULT_BAR03
+  - first:
+      213: 21300190
+    second: MnimalistToon_STAR01
+  - first:
+      213: 21300192
+    second: MnimalistToon_STAR02
+  - first:
+      213: 21300194
+    second: MnimalistToon_SIMPLEBAR08
+  - first:
+      213: 21300196
+    second: MnimalistToon_BOTTON06
+  - first:
+      213: 21300198
+    second: MnimalistToon_BOTTON07
+  - first:
+      213: 21300200
+    second: MnimalistToon_BOTTON08
+  - first:
+      213: 21300202
+    second: MnimalistToon_BOTTON09
+  - first:
+      213: 21300204
+    second: MnimalistToon_BOTTON10
+  - first:
+      213: 21300206
+    second: MnimalistToon_Silhouette01
+  - first:
+      213: 21300208
+    second: MnimalistToon_Silhouette02
+  - first:
+      213: 21300210
+    second: MnimalistToon_Silhouette03
+  - first:
+      213: 21300212
+    second: MnimalistToon_Silhouette04
+  - first:
+      213: 21300214
+    second: MnimalistToon_BOTTON11
+  - first:
+      213: 21300216
+    second: MnimalistToon_BOTTON12
+  - first:
+      213: 21300218
+    second: MnimalistToon_BOTTON13
+  - first:
+      213: 21300220
+    second: MnimalistToon_BOTTON14
+  - first:
+      213: 21300222
+    second: MnimalistToon_BOTTON15
+  - first:
+      213: 21300224
+    second: MnimalistToon_DEFAULT_BKG01
+  - first:
+      213: 21300226
+    second: MnimalistToon_DEFAULT_BKG02
+  - first:
+      213: 21300228
+    second: MnimalistToon_DEFAULT_BKG03
+  - first:
+      213: 21300230
+    second: MnimalistToon_BOTTON16
+  - first:
+      213: 21300232
+    second: MnimalistToon_BOTTON17
+  - first:
+      213: 21300234
+    second: MnimalistToon_BOTTON18
+  - first:
+      213: 21300236
+    second: MnimalistToon_BOTTON19
+  - first:
+      213: 21300238
+    second: MnimalistToon_BOTTON20
+  - first:
+      213: 21300240
+    second: MnimalistToon_STAR03
+  - first:
+      213: 21300242
+    second: MnimalistToon_CURSOR01
+  - first:
+      213: 21300244
+    second: MnimalistToon_CURSOR04
+  - first:
+      213: 21300246
+    second: MnimalistToon_CURSOR05
+  - first:
+      213: 21300248
+    second: MnimalistToon_BALLOON
+  - first:
+      213: 21300250
+    second: MnimalistToon_CHATBALLON
+  - first:
+      213: 21300252
+    second: Minimalist Cartoon UI Pack 2_107
+  - first:
+      213: 21300254
+    second: Minimalist Cartoon UI Pack 2_108
+  - first:
+      213: 21300256
+    second: Minimalist Cartoon UI Pack 2_109
+  - first:
+      213: 21300258
+    second: Minimalist Cartoon UI Pack 2_110
+  - first:
+      213: 21300260
+    second: Minimalist Cartoon UI Pack 2_111
+  - first:
+      213: 21300262
+    second: Minimalist Cartoon UI Pack 2_112
+  - first:
+      213: 21300264
+    second: Minimalist Cartoon UI Pack 2_113
+  - first:
+      213: 21300266
+    second: Minimalist Cartoon UI Pack 2_114
+  - first:
+      213: 21300268
+    second: Minimalist Cartoon UI Pack 2_115
+  - first:
+      213: 21300270
+    second: Minimalist Cartoon UI Pack 2_116
+  - first:
+      213: 21300272
+    second: Minimalist Cartoon UI Pack 2_117
+  - first:
+      213: 21300274
+    second: Minimalist Cartoon UI Pack 2_118
+  - first:
+      213: 21300276
+    second: MnimalistToon_CURSOR06
+  - first:
+      213: 21300278
+    second: Minimalist Cartoon UI Pack 2_120
+  - first:
+      213: 21300280
+    second: Minimalist Cartoon UI Pack 2_121
+  - first:
+      213: 21300282
+    second: Minimalist Cartoon UI Pack 2_122
+  - first:
+      213: 21300284
+    second: Minimalist Cartoon UI Pack 2_123
+  - first:
+      213: 21300286
+    second: MnimalistToon_CURSOR02
+  - first:
+      213: 21300288
+    second: MnimalistToon_CURSOR03
+  - first:
+      213: 21300290
+    second: Minimalist Cartoon UI Pack 2_126
+  - first:
+      213: 21300292
+    second: Minimalist Cartoon UI Pack 2_127
+  - first:
+      213: 21300294
+    second: Minimalist Cartoon UI Pack 2_128
+  - first:
+      213: 21300296
+    second: Minimalist Cartoon UI Pack 2_129
+  - first:
+      213: 21300298
+    second: Minimalist Cartoon UI Pack 2_130
+  - first:
+      213: 21300300
+    second: Minimalist Cartoon UI Pack 2_131
+  - first:
+      213: 21300302
+    second: Minimalist Cartoon UI Pack 2_132
+  - first:
+      213: 21300304
+    second: Minimalist Cartoon UI Pack 2_133
+  - first:
+      213: 21300306
+    second: MnimalistToon_CURSOR07
+  - first:
+      213: 21300308
+    second: Minimalist Cartoon UI Pack 2_135
+  - first:
+      213: 21300310
+    second: Minimalist Cartoon UI Pack 2_136
+  - first:
+      213: 21300312
+    second: Minimalist Cartoon UI Pack 2_137
+  - first:
+      213: 21300314
+    second: Minimalist Cartoon UI Pack 2_138
+  - first:
+      213: 21300316
+    second: Minimalist Cartoon UI Pack 2_139
+  - first:
+      213: 21300318
+    second: Minimalist Cartoon UI Pack 2_140
+  - first:
+      213: 21300320
+    second: Minimalist Cartoon UI Pack 2_141
+  - first:
+      213: 21300322
+    second: Minimalist Cartoon UI Pack 2_142
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME01
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1315
+        width: 288
+        height: 294
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e08133630f7970408c4d410644c3563
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist CartoonMnimalistToon_FRAME02 UI Pack_1
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1312
+        width: 300
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff081205bd89e249a87262eaf87157a
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME03
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1314
+        width: 305
+        height: 309
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8c7e27728913a4e9ee173cce0231cd
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME04
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1315
+        width: 300
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416649e178df85f41824ce914f98f79d
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME05
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1312
+        width: 296
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8aca3456d4d8d74fbdf620464e356c7
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME06
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 1302
+        width: 292
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc79f9e755b1e74ca360f3a2565e86d
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_FRAME07
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 1314
+        width: 300
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bbaf80ec35ca541912c832bd2fc94a
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1191
+        width: 274
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782b8d7560ea905489566c3eb307bee7
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1178
+        width: 295
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b7cc71fc2f8c242b4585f3017e029a
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1093
+        width: 285
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef1ed4fce387346af5e62f995f95c4
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1092
+        width: 293
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a3a7271be6bc04aa44f4956d0a8376
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 1006
+        width: 288
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013afefa2009d93438cbfbe0b4b8a3f4
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_12
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 1006
+        width: 283
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8264ad3443b4554bb35d2c27612d838
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_13
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 911
+        width: 285
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf4661a48883642a922628d7147f2a
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_14
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 916
+        width: 290
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4cce1cb5c5cc948be57402908aa31f
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_15
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 824
+        width: 288
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6684f0751c003da4f9d2fe96df962928
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_16
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 828
+        width: 288
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29feffe24cf9cbc4f9fb807d76896a2d
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_17
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 744
+        width: 281
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaba347a3594324bbe7d3bd93833b50
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack_18
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 736
+        width: 297
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c6fa7539f0c3f46a349a5e8a4a9a51
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG01
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1681
+        width: 271
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850c43553f44cd40b5dc96c657f9218
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG02
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1686
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f1e2a38d6110346843f1e07c2d7830
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG03
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1686
+        width: 259
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c61c711dd5c924f97fc2d9879c4162
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG04
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1687
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b5316bc89cf9b4dbd7044f29640793
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG05
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1687
+        width: 260
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25327e19f1366194c97e939560d4f007
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG06
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1684
+        width: 263
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf0eb7182f6f2b448d68bad09dc0a1c
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BKG07
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1686
+        width: 262
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793d201e27a68244c8dec716d5721c35
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette05
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1399
+        width: 133
+        height: 515
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea388d850cc03d44f9531d13a1d47dae
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Black01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1910
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4e06ddea25b894e8c742c646fc402b
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Black02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1903
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f8193df75a34347b2bdbb641b8cb61
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Black03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1898
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1150c9db6cea74c91ec786921fbbc1
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Indigo01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1819
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2152742fd7ec30b4595bc89818cc2662
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Indigo02
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 1812
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1db8c9bf3e1604099ee8adeee72f27
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Indigo03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1806
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97f9b69b7aabe347bfda77a0aa79291
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Musgo01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1728
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c960b6309efc75142b0f695d3cc7040e
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Musgo02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1721
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80664288f403d64e9d3778854b2bda3
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Musgo03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1715
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a23833c79ca654d897d9d1ee29be44
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Simple01
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 1634
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c82641a5f1dcd24da85df48632884ac
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Bege02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1630
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b5e3b92152f5b4f903e53ae523abf8
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Bege03
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1622
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033efe9a56601f8438895efc59613f2f
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Bege01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1547
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13de4efad9a9dc14ca75d467ca926f17
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_21
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1539
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5537cd14991addf42a674864d31e985b
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_22
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1534
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2843409521e714b8bbdcd8605062a0
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Green03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1443
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e057b438f580a4680a7010028dff3f
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Green01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1456
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745931ea781ab8943b8d6554ed01fda2
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Green02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1448
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b4412b8558daa4b96dbca0051b5013
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_LightBlue01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1365
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eef23401038dfc409fa54a431a5c64b
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_LightBlue02
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 1357
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2643c39f95e00f841aff498736079f5f
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_LightBlue03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1352
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3334a4114aa0d45a2ae2c138acd0eb
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Blue03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1260
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2453e82da558f42b1b53bf94798fe7
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Blue01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1271
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca6be2299b57a249a3c4353d5365900
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Blue02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 1266
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1ca28cc81a6034793024afd9278056
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR01
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1202
+        width: 259
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87925561f2f89e41b0aed6af6305158
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE01
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1139
+        width: 123
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015ce9ff3f4c4f64bb5e04dce500125e
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE02
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1148
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b51a15e15e3eda49a46fbb056713342
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE03
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1145
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869a4defbc4620a4f8c42fe0da040c22
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE04
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1148
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848142cc76d97c246beeb8442df0eae6
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CIRCLE01
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 1105
+        width: 166
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88750b93c31684e4f92b7b364921ffa2
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CIRCLE02
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1103
+        width: 173
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134dfab69be8602428b222561c532a13
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CIRCLE03
+      rect:
+        serializedVersion: 2
+        x: 2151
+        y: 1088
+        width: 157
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b32dbc23b41f4248bba295ab4015a60
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette06
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 1015
+        width: 111
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef932f944fa94df48b38aa1b144ceb37
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Skin01
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1180
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ee410c8967a445b6f63b2f18aae2b
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Skin02
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 1175
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d211adc68b292d5469459dd9590cdd4e
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Skin03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 1169
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cc5ceaaf116974aa3ca5e90fb66ee9
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR02
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1138
+        width: 259
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f944b0538ba5b6a4b94a6a746622380e
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Brown01
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1089
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb56f48f2ed4aab498505a8305d96273
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Brown02
+      rect:
+        serializedVersion: 2
+        x: 2782
+        y: 1084
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51162c8df8e14ac4e9c2c1ace09c4b6e
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Brown03
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 1078
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e93ed4c5c2db754b81c7cde513c4f88
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR03
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1075
+        width: 259
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf984a641441ea4d93f8cd029aa0f3c
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE05
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1016
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dbe27b73efa394a8bd9e99347ca9dd
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE06
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1018
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409ac598f7b16b94ab93893598e085a3
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE07
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1016
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c1676526448024a83e1cdce3ba2a91
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SQUARE08
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1021
+        width: 104
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1877e397d8d8c4cbe134aef8231e7c
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR04
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1010
+        width: 259
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50a665a2ec00eb488423e7dbf2ebf3a
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Yellow01
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 999
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc504e9f91be8d4a8bc242e2cb82568
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Yellow02
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 993
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3829f0b78c49a5418d9fca04a95a60b
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Yellow03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 987
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c12b791635d71479771e7d9269ee4b
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_SLOT03
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 939
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7909fb9739bf91408e982aacf1200e9
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BAR01
+      rect:
+        serializedVersion: 2
+        x: 2052
+        y: 962
+        width: 294
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ce57923fcc13844a6ac3e52e907eb9
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR05
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 946
+        width: 259
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d965ac6a5175145ab7b1cf63cf8c9e
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_SLOT01
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 952
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d988af44ed8b98f4db90935fc03a6bfc
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_SLOT02
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 945
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e2087a73f5c684086bfdfffa22e0f4
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_62
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 908
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30877ee6672ab4743aed08b58e7387ea
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Simple02
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 901
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0353300f9830f499c0781016a24473
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SLOT_Simple03
+      rect:
+        serializedVersion: 2
+        x: 2865
+        y: 895
+        width: 77
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ccac632610a8a4c911cfb2720a5121
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR06
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 881
+        width: 259
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6776ca0767758364dbdd3ad696bbfed8
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON01
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 846
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eb58840ce13744b89f20815897120c
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON02
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 846
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dff19b5df05cf4592903633ddf5fe8
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON03
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 846
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11f73cfd394094bbb10824e2512b2f
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON04
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 846
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c211c5ec92d20f748b9f013d3ea11788
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON05
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 846
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e649918317812448bcdb9d3e907259
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BAR02
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 886
+        width: 262
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788fdc267fd5c76478a765ad59219796
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_SQUARE
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 786
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9887e090d70523e4e9e89db6b15dd9ff
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR07
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 817
+        width: 259
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f9c7b322a225e45a4bb40f98fe5725
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_SQUARESMALL
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 804
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e204adcbf3a77145913a079137434df
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BAR03
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 804
+        width: 262
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affa2ba2c11220547be5a7d42d9cbebb
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_STAR01
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 644
+        width: 195
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b5b7b98e582304f9729b4f92b4b777
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_STAR02
+      rect:
+        serializedVersion: 2
+        x: 2788
+        y: 651
+        width: 180
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7daa8bdfc4af934ea17d503e43efdec
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_SIMPLEBAR08
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 752
+        width: 259
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a1e6256d4075948a2d08aff0623c33
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON06
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 757
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12de6f1faf517804cb5395b54f69d0ea
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON07
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 757
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6a86a8a82dbc34f85033f713df1585
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON08
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 757
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb6278564ab45743ad27d0ea1e8addf
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON09
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 757
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9089ace6e4e87d6489c0268fd73a251f
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON10
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 757
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4246f3d7b74e4a9d67875cdd7802f
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette01
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 437
+        width: 194
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b206a7c9b99db9043befab71bd8dce40
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette02
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 437
+        width: 230
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb16e642d3340747a620e99b6d69908
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette03
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 449
+        width: 234
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdd793f36e1ea441a173496f6fe7f1c
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_Silhouette04
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 436
+        width: 136
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dcded1be8e8764c820dc4bce563cfb
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON11
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 676
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e676c9668c026645a69d5f18c38d274
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON12
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 676
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e04167d01a3be34f9060568db9febf0
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON13
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 676
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84d4c5f042e5b478c41a04b67a5e2a
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON14
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 676
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ecd0f47121a8e4da702b98717324f4
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON15
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 676
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3940114667b5e83488e5792eb5a709fc
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BKG01
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 477
+        width: 260
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64484e3e488555b48997d75e24f28574
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BKG02
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 470
+        width: 267
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858ee931f36592441ad62dfccae076f0
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_DEFAULT_BKG03
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 463
+        width: 292
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c7aeb71183d9740a47176792b1604e
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON16
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 587
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e514d60dd408548be4dfdcda3ed060
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON17
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 587
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3279c18b818573f43a1a0e500a8494f6
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON18
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 587
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435a3cde53e776442881b8d376c7aef9
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON19
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 587
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd9c32658e9ca40b2ccc866cd39d51
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BOTTON20
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 587
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa5062bf3e940e4c975cfe90dda473d
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_STAR03
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 436
+        width: 176
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2a67810fdcea84f9681e9d4741aae8
+      internalID: 21300240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR01
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 247
+        width: 131
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86fa330b0d02c145ad04d806931631a
+      internalID: 21300242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR04
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 222
+        width: 152
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bfa5a7ec274034aa1bc767dc606f6a
+      internalID: 21300244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR05
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 273
+        width: 155
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20da95daf83252c43891d04be9fabbe3
+      internalID: 21300246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_BALLOON
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 272
+        width: 162
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce3c58166cb19b489dd2e6446cd29a1
+      internalID: 21300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CHATBALLON
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 169
+        width: 304
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fde42fc63f67ef498c0e66b1fe0b7be
+      internalID: 21300250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_107
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 361
+        width: 260
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d7cdfaf1e0ec4eb4661fadce5aa21
+      internalID: 21300252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_108
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 362
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12f03ffed62b2d44a6148a5d5f4e4aa
+      internalID: 21300254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_109
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 361
+        width: 261
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a30e3c69eabf6c46853d71aec630752
+      internalID: 21300256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_110
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 363
+        width: 260
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29dcc49b7ae8e343a15e25650c1dd65
+      internalID: 21300258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_111
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 316
+        width: 260
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb8d5a35d204004a9a377e5f9a5b7b4
+      internalID: 21300260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_112
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 317
+        width: 259
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941263bf3bb1a5b41a275a3745bef3d8
+      internalID: 21300262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_113
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 316
+        width: 261
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0242a006ce4b9b44194de20f0abb087f
+      internalID: 21300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_114
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 317
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbedba5a2d5cbc54db232eaae75f5deb
+      internalID: 21300266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_115
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 270
+        width: 260
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2384d27a702fb45b0c52613c4ad8cc
+      internalID: 21300268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_116
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 271
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53135e4c3a59c5a43a28b5f29f75ba2b
+      internalID: 21300270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_117
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 270
+        width: 261
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c2b6552273fd9479db40e6cbf003dc
+      internalID: 21300272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_118
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 272
+        width: 260
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e740190ec85edb47ab0075f8f9f694d
+      internalID: 21300274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR06
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 131
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b887ac8970a51b343bd45ff6081c669b
+      internalID: 21300276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_120
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 224
+        width: 260
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3ae1ff1ab24d948b37971be127b1da
+      internalID: 21300278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_121
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 225
+        width: 259
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d74f2fced30e364194311a3f1a76bfc
+      internalID: 21300280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_122
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 224
+        width: 261
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3e4e6204a96a54f92b96b830cdd3db
+      internalID: 21300282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_123
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 225
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 513f0f748af64c146beba44a11d630b5
+      internalID: 21300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR02
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 18
+        width: 154
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ea11152434e084eb40b5d31364eda5
+      internalID: 21300286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR03
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 18
+        width: 154
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f747b2a7673949aa6b2e407b64321
+      internalID: 21300288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_126
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 179
+        width: 260
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9767cb8b867a6504398c204f85a45f5f
+      internalID: 21300290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_127
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 180
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9ab29d414d0e94ba645f99d82abf95
+      internalID: 21300292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_128
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 179
+        width: 261
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cb36c0069cc0e40a38feead55722f0
+      internalID: 21300294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_129
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 180
+        width: 260
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96128439f62681c41980e47efc7fba8f
+      internalID: 21300296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_130
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 133
+        width: 260
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a21e2257097a734c98d838bc587fbb2
+      internalID: 21300298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_131
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 134
+        width: 259
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b279c1d4158b564eb9741cad647f294
+      internalID: 21300300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_132
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 133
+        width: 261
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f82a9376c61614aa1a529281b925fc
+      internalID: 21300302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_133
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 134
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5af27a5f51fc5a4fbde4aaacf88dda7
+      internalID: 21300304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MnimalistToon_CURSOR07
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 10
+        width: 156
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e65635ebba9289b43b7bbb89562fb940
+      internalID: 21300306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_135
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 87
+        width: 260
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe044ce2d34e17a4da546b96a2fc3f58
+      internalID: 21300308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_136
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 88
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a91a2c64c93af84181167090c65533e
+      internalID: 21300310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_137
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 87
+        width: 261
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfd142d95c450e40a9fd76636ff90eb
+      internalID: 21300312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_138
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 89
+        width: 260
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ec4a818be3a084582dab8501a3f86e
+      internalID: 21300314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_139
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 42
+        width: 260
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdeb49a5c17da04396c6af7224e59b7
+      internalID: 21300316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_140
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 42
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f59a41dcf32524eb665d9bbe63b8c8
+      internalID: 21300318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_141
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 42
+        width: 261
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1429e191f08a92469cd35c84f9d4d4c
+      internalID: 21300320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Minimalist Cartoon UI Pack 2_142
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 42
+        width: 260
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96eebec834c5fc47b60c3764b070312
+      internalID: 21300322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2b1de935a631e664693e8d5c320421e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

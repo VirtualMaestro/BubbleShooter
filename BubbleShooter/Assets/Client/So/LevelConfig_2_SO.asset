@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6eac5ce0a1f74158bc536bc5c33dc451, type: 3}
+  m_Name: LevelConfig_2_SO
+  m_EditorClassIdentifier: 
+  boosts: 0400000005000000
+  boardColumns: 10
+  boardRows: 10
+  filledRows: 5
+  coinSize: 0.6
+  minCoinsToDelete: 3
+  numCoins: 65
+  boostIconPrefab: {fileID: 7852904445244519739, guid: 5aecc708051c0284392daadfc83afb35, type: 3}
