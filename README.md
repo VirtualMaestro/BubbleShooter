@@ -1,5 +1,5 @@
 # Bubble shooting-like game example based on ECS architecture approach.
-The project uses the following libs and assets (all of the free or under MIT license):
+The project uses the following libs and assets (all used resources are free or under MIT license):
 - [StubbUnity](https://github.com/VirtualMaestro/StubbUnity)
 - [LeoEcs](https://github.com/Leopotam/ecs)
 - [Ecs-UI](https://github.com/Leopotam/ecs-ui)
