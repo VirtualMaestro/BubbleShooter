@@ -48,6 +48,7 @@ MonoBehaviour:
   hasPhysics: 0
   typeId: 0
   type: 3
+  trail: {fileID: 0}
 --- !u!58 &8890232398769195165
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -63,7 +64,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.3
+  m_Radius: 0.32
 --- !u!212 &5707051246867654652
 SpriteRenderer:
   m_ObjectHideFlags: 0

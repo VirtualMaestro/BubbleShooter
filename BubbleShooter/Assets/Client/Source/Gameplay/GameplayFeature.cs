@@ -34,6 +34,7 @@ namespace Client.Source.Gameplay
             Add(new RemoveClusterSystem());
             Add(new RemoveDisconnectedSystem());
             Add(new DestroyCoinViewSystem());
+            Add(new ShowDestroyParticleSystem());
             Add(new CheckWinSystem());
             
             OneFrame<StartDrawTrajectoryEvent>();
@@ -43,6 +44,7 @@ namespace Client.Source.Gameplay
             OneFrame<BoostIconClickEvent>();
             OneFrame<RemoveClusterEvent>();
             OneFrame<CoinsRemovedEvent>();
+            OneFrame<ShowDestroyParticleEvent>();
         }
 
         public void Run()
