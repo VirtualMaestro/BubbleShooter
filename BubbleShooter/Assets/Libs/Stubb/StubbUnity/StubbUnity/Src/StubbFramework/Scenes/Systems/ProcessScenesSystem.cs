@@ -5,10 +5,6 @@ using StubbUnity.Unity.Scenes;
 
 namespace StubbUnity.StubbFramework.Scenes.Systems
 {
-#if ENABLE_IL2CPP
-    [Unity.IL2CPP.CompilerServices.Il2CppSetOption (Unity.IL2CPP.CompilerServices.Option.NullChecks, false)]
-    [Unity.IL2CPP.CompilerServices.Il2CppSetOption (Unity.IL2CPP.CompilerServices.Option.ArrayBoundsChecks, false)]
-#endif
     public sealed class ProcessScenesSystem : IEcsRunSystem
     {
         private EcsFilter<ProcessScenesEvent> _loadScenesFilter;
