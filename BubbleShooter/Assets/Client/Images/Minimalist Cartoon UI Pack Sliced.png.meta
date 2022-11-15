@@ -510,6 +510,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -3988,6 +3989,169 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MnimalistToon_SLOT_Black03: 21300058
+      MnimalistToon_SLOT_Yellow03: 21300150
+      MnimalistToon_SLOT_Musgo01: 21300066
+      Minimalist Cartoon UI Pack_10: 21300020
+      MnimalistToon_BKG05: 21300046
+      MnimalistToon_SQUARE04: 21300110
+      MnimalistToon_SLOT_Bege01: 21300078
+      Minimalist Cartoon UI Pack 2_130: 21300298
+      MnimalistToon_SLOT_Green01: 21300086
+      MnimalistToon_BKG06: 21300048
+      MnimalistToon_BKG03: 21300042
+      MnimalistToon_Silhouette06: 21300118
+      MnimalistToon_SLOT_Simple02: 21300164
+      Minimalist Cartoon UI Pack 2_108: 21300254
+      MnimalistToon_SLOT_Black01: 21300054
+      MnimalistToon_SLOT_Bege03: 21300076
+      Minimalist Cartoon UI Pack_13: 21300026
+      Minimalist CartoonMnimalistToon_FRAME02 UI Pack_1: 21300002
+      MnimalistToon_SLOT_Blue01: 21300098
+      MnimalistToon_SQUARE07: 21300140
+      Minimalist Cartoon UI Pack 2_117: 21300272
+      MnimalistToon_STAR01: 21300190
+      MnimalistToon_SLOT_Black02: 21300056
+      Minimalist Cartoon UI Pack 2_118: 21300274
+      Minimalist Cartoon UI Pack_11: 21300022
+      MnimalistToon_DEFAULT_BKG01: 21300224
+      MnimalistToon_CHATBALLON: 21300250
+      Minimalist Cartoon UI Pack_7: 21300014
+      MnimalistToon_SLOT_Bege02: 21300074
+      MnimalistToon_BOTTON05: 21300178
+      MnimalistToon_BOTTON12: 21300216
+      MnimalistToon_SLOT_LightBlue03: 21300094
+      Minimalist Cartoon UI Pack_14: 21300028
+      MnimalistToon_SLOT_Brown03: 21300132
+      MnimalistToon_BOTTON17: 21300232
+      MnimalistToon_SLOT_Simple03: 21300166
+      MnimalistToon_DEFAULT_BKG02: 21300226
+      MnimalistToon_SLOT_Musgo02: 21300068
+      MnimalistToon_SLOT_Skin01: 21300120
+      Minimalist Cartoon UI Pack 2_115: 21300268
+      Minimalist Cartoon UI Pack 2_114: 21300266
+      MnimalistToon_BKG02: 21300040
+      MnimalistToon_SQUARE02: 21300106
+      MnimalistToon_CURSOR02: 21300286
+      MnimalistToon_DEFAULT_BAR02: 21300180
+      Minimalist Cartoon UI Pack 2_21: 21300080
+      MnimalistToon_CURSOR04: 21300244
+      MnimalistToon_BOTTON16: 21300230
+      Minimalist Cartoon UI Pack 2_138: 21300314
+      Minimalist Cartoon UI Pack 2_121: 21300280
+      MnimalistToon_BOTTON20: 21300238
+      Minimalist Cartoon UI Pack 2_131: 21300300
+      Minimalist Cartoon UI Pack_9: 21300018
+      MnimalistToon_BOTTON02: 21300172
+      MnimalistToon_SLOT_Indigo02: 21300062
+      MnimalistToon_SQUARE05: 21300136
+      MnimalistToon_BKG07: 21300050
+      Minimalist Cartoon UI Pack_15: 21300030
+      MnimalistToon_CIRCLE02: 21300114
+      Minimalist Cartoon UI Pack 2_142: 21300322
+      MnimalistToon_BKG04: 21300044
+      MnimalistToon_SIMPLEBAR01: 21300102
+      MnimalistToon_FRAME03: 21300004
+      MnimalistToon_SLOT_Yellow01: 21300146
+      MnimalistToon_DEFAULT_SLOT02: 21300160
+      MnimalistToon_SQUARE01: 21300104
+      MnimalistToon_SLOT_Musgo03: 21300070
+      MnimalistToon_SIMPLEBAR04: 21300144
+      MnimalistToon_BKG01: 21300038
+      MnimalistToon_Silhouette04: 21300212
+      Minimalist Cartoon UI Pack 2_136: 21300310
+      MnimalistToon_DEFAULT_BAR01: 21300154
+      MnimalistToon_CURSOR05: 21300246
+      MnimalistToon_BOTTON18: 21300234
+      Minimalist Cartoon UI Pack 2_137: 21300312
+      Minimalist Cartoon UI Pack 2_113: 21300264
+      MnimalistToon_STAR03: 21300240
+      MnimalistToon_SQUARE06: 21300138
+      MnimalistToon_SLOT_LightBlue02: 21300092
+      MnimalistToon_SLOT_Blue03: 21300096
+      Minimalist Cartoon UI Pack 2_139: 21300316
+      MnimalistToon_DEFAULT_SQUARE: 21300182
+      MnimalistToon_BOTTON09: 21300202
+      MnimalistToon_CIRCLE01: 21300112
+      MnimalistToon_Silhouette05: 21300052
+      MnimalistToon_FRAME01: 21300000
+      Minimalist Cartoon UI Pack 2_107: 21300252
+      MnimalistToon_FRAME06: 21300010
+      MnimalistToon_DEFAULT_SQUARESMALL: 21300186
+      Minimalist Cartoon UI Pack_17: 21300034
+      Minimalist Cartoon UI Pack 2_22: 21300082
+      MnimalistToon_BOTTON01: 21300170
+      MnimalistToon_FRAME05: 21300008
+      Minimalist Cartoon UI Pack 2_141: 21300320
+      MnimalistToon_SLOT_LightBlue01: 21300090
+      MnimalistToon_SIMPLEBAR03: 21300134
+      MnimalistToon_FRAME07: 21300012
+      Minimalist Cartoon UI Pack_8: 21300016
+      Minimalist Cartoon UI Pack 2_126: 21300290
+      MnimalistToon_SQUARE03: 21300108
+      MnimalistToon_CURSOR07: 21300306
+      MnimalistToon_SIMPLEBAR08: 21300194
+      MnimalistToon_SLOT_Brown02: 21300130
+      MnimalistToon_DEFAULT_SLOT03: 21300152
+      MnimalistToon_BOTTON08: 21300200
+      MnimalistToon_CURSOR01: 21300242
+      Minimalist Cartoon UI Pack 2_120: 21300278
+      Minimalist Cartoon UI Pack 2_135: 21300308
+      Minimalist Cartoon UI Pack_12: 21300024
+      MnimalistToon_Silhouette01: 21300206
+      MnimalistToon_FRAME04: 21300006
+      MnimalistToon_SLOT_Green02: 21300088
+      MnimalistToon_BOTTON10: 21300204
+      MnimalistToon_SQUARE08: 21300142
+      MnimalistToon_BOTTON14: 21300220
+      MnimalistToon_CURSOR06: 21300276
+      MnimalistToon_CURSOR03: 21300288
+      Minimalist Cartoon UI Pack 2_133: 21300304
+      MnimalistToon_SLOT_Green03: 21300084
+      Minimalist Cartoon UI Pack 2_112: 21300262
+      Minimalist Cartoon UI Pack 2_123: 21300284
+      Minimalist Cartoon UI Pack 2_116: 21300270
+      MnimalistToon_BOTTON04: 21300176
+      MnimalistToon_SLOT_Skin02: 21300122
+      MnimalistToon_SIMPLEBAR05: 21300156
+      MnimalistToon_SIMPLEBAR06: 21300168
+      Minimalist Cartoon UI Pack_18: 21300036
+      MnimalistToon_DEFAULT_BAR03: 21300188
+      Minimalist Cartoon UI Pack 2_110: 21300258
+      Minimalist Cartoon UI Pack 2_111: 21300260
+      MnimalistToon_BOTTON15: 21300222
+      Minimalist Cartoon UI Pack 2_140: 21300318
+      Minimalist Cartoon UI Pack 2_62: 21300162
+      MnimalistToon_DEFAULT_BKG03: 21300228
+      MnimalistToon_SIMPLEBAR07: 21300184
+      MnimalistToon_SLOT_Blue02: 21300100
+      Minimalist Cartoon UI Pack 2_122: 21300282
+      Minimalist Cartoon UI Pack 2_132: 21300302
+      Minimalist Cartoon UI Pack 2_127: 21300292
+      MnimalistToon_SIMPLEBAR02: 21300126
+      Minimalist Cartoon UI Pack 2_128: 21300294
+      MnimalistToon_BOTTON13: 21300218
+      MnimalistToon_Silhouette03: 21300210
+      MnimalistToon_BALLOON: 21300248
+      MnimalistToon_SLOT_Brown01: 21300128
+      MnimalistToon_BOTTON06: 21300196
+      MnimalistToon_CIRCLE03: 21300116
+      MnimalistToon_BOTTON03: 21300174
+      MnimalistToon_Silhouette02: 21300208
+      Minimalist Cartoon UI Pack_16: 21300032
+      MnimalistToon_BOTTON19: 21300236
+      MnimalistToon_SLOT_Indigo01: 21300060
+      MnimalistToon_SLOT_Indigo03: 21300064
+      MnimalistToon_SLOT_Simple01: 21300072
+      Minimalist Cartoon UI Pack 2_129: 21300296
+      MnimalistToon_BOTTON07: 21300198
+      MnimalistToon_DEFAULT_SLOT01: 21300158
+      MnimalistToon_SLOT_Skin03: 21300124
+      MnimalistToon_BOTTON11: 21300214
+      MnimalistToon_SLOT_Yellow02: 21300148
+      MnimalistToon_STAR02: 21300192
+      Minimalist Cartoon UI Pack 2_109: 21300256
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
