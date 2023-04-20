@@ -2,9 +2,9 @@
 
 namespace StubbUnity.StubbFramework.Common
 {
-    public interface IEntityContainer : IDispose
+    public interface IEntityContainer
     {
-        void Initialize();
+        void OnInitialize();
         bool HasEntity { get; }
         ref EcsEntity GetEntity();
         void SetEntity(ref EcsEntity entity);

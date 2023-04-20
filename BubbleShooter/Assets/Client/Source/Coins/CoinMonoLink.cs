@@ -25,7 +25,7 @@ namespace Client.Source.Coins
             _data.View = this;
         }
 
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<CoinComponent>().Coin = this;
 

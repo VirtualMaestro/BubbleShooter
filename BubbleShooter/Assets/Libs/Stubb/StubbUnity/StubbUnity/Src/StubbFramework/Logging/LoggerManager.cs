@@ -7,7 +7,7 @@ namespace StubbUnity.StubbFramework.Logging
     {
         private static LogLevel _globalLogLevel;
         private static Logger.LogDelegate _appenders;
-        private static readonly Dictionary<string, Logger> _loggers = new Dictionary<string, Logger>();
+        private static readonly Dictionary<string, Logger> Loggers = new Dictionary<string, Logger>();
 
         /// <summary>
         /// Set global log value.
@@ -18,7 +18,7 @@ namespace StubbUnity.StubbFramework.Logging
             set
             {
                 _globalLogLevel = value;
-                foreach (var logger in _loggers.Values)
+                foreach (var logger in Loggers.Values)
                 {
                     logger.LogLevel = value;
                 }
@@ -32,7 +32,7 @@ namespace StubbUnity.StubbFramework.Logging
         public static void Add(Logger.LogDelegate appender)
         {
             _appenders += appender;
-            foreach (var logger in _loggers.Values)
+            foreach (var logger in Loggers.Values)
             {
                 logger.OnLog += appender;
             }
@@ -45,7 +45,7 @@ namespace StubbUnity.StubbFramework.Logging
         public static void Remove(Logger.LogDelegate appender)
         {
             _appenders -= appender;
-            foreach (var logger in _loggers.Values)
+            foreach (var logger in Loggers.Values)
             {
                 logger.OnLog -= appender;
             }
@@ -58,10 +58,10 @@ namespace StubbUnity.StubbFramework.Logging
         /// <returns></returns>
         public static Logger Create(string name)
         {
-            if (_loggers.TryGetValue(name, out var logger)) return logger;
+            if (Loggers.TryGetValue(name, out var logger)) return logger;
             
             logger = _CreateLogger(name);
-            _loggers.Add(name, logger);
+            Loggers.Add(name, logger);
 
             return logger;
         }
@@ -71,7 +71,7 @@ namespace StubbUnity.StubbFramework.Logging
         /// </summary>
         public static void Reset()
         {
-            _loggers.Clear();
+            Loggers.Clear();
             _appenders = null;
         }
 

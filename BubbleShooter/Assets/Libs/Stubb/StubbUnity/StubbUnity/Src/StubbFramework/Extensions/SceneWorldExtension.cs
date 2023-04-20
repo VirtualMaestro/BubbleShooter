@@ -176,7 +176,7 @@ namespace StubbUnity.StubbFramework.Extensions
         }
 
         /// <summary>
-        /// Removes all current scenes.
+        /// Unloads all current scenes.
         /// </summary>
         public static void UnloadAllScenes(this EcsWorld world, string configName = null)
         {

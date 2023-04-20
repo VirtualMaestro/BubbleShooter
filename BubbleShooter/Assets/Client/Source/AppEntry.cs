@@ -13,18 +13,19 @@ namespace Client.Source
     {
         [SerializeField] private AppSettings appSettings;
         
-        protected override void Construct(IStubbContext context)
+        protected override void OnConstruct(IStubbContext context)
         {
-            base.Construct(context);
+            base.OnConstruct(context);
             context.MainFeature = new MainFeature();
         }
         
-        protected override void Initialize(IStubbContext context)
+        protected override void OnInitialize(IStubbContext context)
         {
             context.Inject(appSettings);
             context.Inject(new HexGrid());
             context.Inject(new FactoryService(appSettings));
         }
+        
         protected override IPhysicsContext CreatePhysicsContext()
         {
             var physicsContext = new PhysicsContext(World)

@@ -33,13 +33,17 @@ namespace Leopotam.Ecs.Ui.Systems {
         public static EcsSystems InjectUi (this EcsSystems ecsSystems, EcsUiEmitter emitter, bool skipNoExists = false, bool skipOneFrames = false) {
             if (!skipOneFrames) { InjectOneFrames (ecsSystems); }
             ecsSystems.Inject (emitter);
-            emitter.SetWorld (ecsSystems.World);
+            if (emitter.GetWorld() == null) { emitter.SetWorld (ecsSystems.World); }
             var uiNamedType = typeof (EcsUiNamedAttribute);
             var goType = typeof (GameObject);
             var componentType = typeof (Component);
             var systems = ecsSystems.GetAllSystems ();
             for (int i = 0, iMax = systems.Count; i < iMax; i++) {
                 var system = systems.Items[i];
+                if (system is EcsSystems nestedSystems) {
+                    nestedSystems.InjectUi(emitter, skipNoExists, skipOneFrames);
+                    continue;
+                }
                 var systemType = system.GetType ();
                 foreach (var f in systemType.GetFields (BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)) {
                     // skip statics or fields without [EcsUiNamed] attribute.

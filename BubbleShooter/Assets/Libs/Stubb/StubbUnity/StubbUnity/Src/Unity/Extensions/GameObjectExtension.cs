@@ -29,12 +29,12 @@ namespace StubbUnity.Unity.Extensions
         {
             if (isEnable)
             {
-                if (!gameObject.HasComponent<T>())
-                {
-                    var comp = gameObject.AddComponent<T>();
-                    if (hideInInspector)
-                        comp.hideFlags = HideFlags.HideInInspector;
-                }
+                if (gameObject.HasComponent<T>()) 
+                    return;
+                
+                var comp = gameObject.AddComponent<T>();
+                if (hideInInspector)
+                    comp.hideFlags = HideFlags.HideInInspector;
             }
             else if (gameObject.HasComponent<T>())
                 Object.DestroyImmediate(gameObject.GetComponent<T>());

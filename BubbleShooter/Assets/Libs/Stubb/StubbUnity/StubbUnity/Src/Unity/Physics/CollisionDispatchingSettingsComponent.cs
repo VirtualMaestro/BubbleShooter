@@ -7,19 +7,18 @@ namespace StubbUnity.Unity.Physics
     {
         [SerializeField] private CollisionDispatchProperties triggerProperties;
         [SerializeField] private CollisionDispatchProperties collisionProperties;
-        
-        private CollisionDispatchingSettings _collisionDispatchingSettings;
-        public CollisionDispatchingSettings DispatchingSettings => _collisionDispatchingSettings;
+
+        public CollisionDispatchingSettings DispatchingSettings { get; private set; }
 
         private void Awake()
         {
-            _collisionDispatchingSettings = new CollisionDispatchingSettings(triggerProperties, collisionProperties, gameObject);
+            DispatchingSettings = new CollisionDispatchingSettings(triggerProperties, collisionProperties, gameObject);
         }
 
         public void OnDestroy()
         {
-            _collisionDispatchingSettings.Dispose();
-            _collisionDispatchingSettings = null;
+            DispatchingSettings.Dispose();
+            DispatchingSettings = null;
         }
     }
 }

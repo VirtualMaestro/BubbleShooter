@@ -7,7 +7,7 @@ namespace Client.Source.Common.Mono
 {
     public class CameraMonoLink : EcsViewLink
     {
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<CameraComponent>().Camera = GetComponent<Camera>();
         }

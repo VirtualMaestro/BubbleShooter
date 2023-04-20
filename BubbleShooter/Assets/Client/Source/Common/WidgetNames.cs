@@ -1,6 +1,6 @@
 ﻿namespace Client.Source.Common
 {
-    public class WidgetNames
+    public static class WidgetNames
     {
         public const string MainPlayBtn = "MainScreen.PlayBtn";
 

@@ -251,9 +251,7 @@ namespace StubbUnity.StubbFramework.Extensions
         {
             if (result == 1)
             {
-                var tmp = objA;
-                objA = objB;
-                objB = tmp;
+                (objA, objB) = (objB, objA);
             }
 
             RegisterCollisionTable[hash] = true;

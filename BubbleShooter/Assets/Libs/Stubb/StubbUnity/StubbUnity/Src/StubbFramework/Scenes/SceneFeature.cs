@@ -1,6 +1,5 @@
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Core;
-using StubbUnity.StubbFramework.Scenes.Components;
 using StubbUnity.StubbFramework.Scenes.Events;
 using StubbUnity.StubbFramework.Scenes.Systems;
 
@@ -12,16 +11,18 @@ namespace StubbUnity.StubbFramework.Scenes
         {
             Add(new ProcessScenesSystem());
 
-            OneFrame<SceneBecomeActiveComponent>();
-            OneFrame<SceneBecomeInactiveComponent>();
+            OneFrame<SceneActivatedEvent>();
+            OneFrame<SceneDeactivatedEvent>();
 
             Add(new ActivateSceneSystem());
             Add(new DeactivateSceneSystem());
 
             OneFrame<ScenesSetLoadingCompleteEvent>();
             OneFrame<ScenesSetUnloadingCompleteEvent>();
+            OneFrame<SceneLoadingCompleteEvent>();
             OneFrame<SceneUnloadingCompleteEvent>();
-            OneFrame<SceneReadyComponent>();
+            OneFrame<SceneCreatedEvent>();
+            OneFrame<SceneDestroyedEvent>();
             
             OneFrame<ProcessScenesEvent>();
             OneFrame<ActivateSceneEvent>();

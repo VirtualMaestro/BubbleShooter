@@ -13,13 +13,13 @@ namespace Client.Source.Common.Mono
 
         private EcsEntity _entityLevelConfig;
         
-        public override void Initialize()
+        public override void OnInitialize()
         {
             _entityLevelConfig = World.NewEntity();
             _entityLevelConfig.Get<LevelConfigComponent>().LevelConfig = levelConfig;
         }
 
-        public override void Dispose()
+        protected override void OnDispose()
         {
             if (_entityLevelConfig.IsAlive() && _entityLevelConfig.IsWorldAlive())
                 _entityLevelConfig.Destroy();

@@ -1,4 +1,3 @@
-using JetBrains.Annotations;
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Common.Names;
 using StubbUnity.StubbFramework.Scenes;
@@ -8,23 +7,21 @@ namespace StubbUnity.Unity.Extensions
 {
     public static class SceneExtension
     {
-        public static bool HasController(this Scene scene) => GetController(scene) != null;
+        public static bool HasController(this Scene scene) => GetController(scene, out _);
 
-        [CanBeNull]
-        public static ISceneController GetController(this Scene scene)
+        public static bool GetController(this Scene scene, out ISceneController controller)
         {
+            controller = null;
             var gos = scene.GetRootGameObjects();
 
             foreach (var go in gos)
             {
-                var controller = go.GetComponent<ISceneController>();
+                if (!go.TryGetComponent(out controller)) continue;
 
-                if (controller == null) continue;
-
-                return controller;
+                return true;
             }
 
-            return null;
+            return false;
         }
 
         public static bool IsNameEqual(this Scene scene, IAssetName name)
@@ -34,15 +31,12 @@ namespace StubbUnity.Unity.Extensions
         
         public static bool HasScene(this EcsWorld world, in IAssetName sceneName)
         {
-            for (var i = 1; i < SceneManager.sceneCount; i++)
+            for (var i = 0; i < SceneManager.sceneCount; i++)
             {
                 var scene = SceneManager.GetSceneAt(i);
-                var controller = scene.GetController();
 
-                if (controller != null && controller.SceneName.Equals(sceneName))
-                {
+                if (scene.GetController(out var controller) && controller.SceneName.Equals(sceneName))
                     return true;
-                }
             }
 
             return false;

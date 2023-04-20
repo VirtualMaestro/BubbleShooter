@@ -4,7 +4,7 @@ using StubbUnity.StubbFramework.Common;
 
 namespace StubbUnity.StubbFramework.Core
 {
-    public interface IStubbContext : IDispose
+    public interface IStubbContext : IDestroy
     {
         EcsWorld World { get; }
 

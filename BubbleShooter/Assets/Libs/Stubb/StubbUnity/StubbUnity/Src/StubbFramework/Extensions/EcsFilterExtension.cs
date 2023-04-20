@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using Leopotam.Ecs;
-using StubbUnity.StubbFramework.Remove.Components;
+using StubbUnity.StubbFramework.Destroy.Components;
 
 namespace StubbUnity.StubbFramework.Extensions
 {
@@ -25,7 +25,7 @@ namespace StubbUnity.StubbFramework.Extensions
         }
 
         /// <summary>
-        /// Immediately removes all entities in given filter.
+        /// Immediately destroys all entities in given filter.
         /// Use it carefully!
         /// </summary>
         public static void Clear<T> (this EcsFilter<T> filter) where T : struct
@@ -35,12 +35,12 @@ namespace StubbUnity.StubbFramework.Extensions
         }
 
         /// <summary>
-        /// Mark all entities in a filter with RemoveEntityComponent. 
+        /// Mark all entities in a filter with DestroyEntityComponent. 
         /// </summary>
-        public static void MarkRemove (this EcsFilter filter)
+        public static void MarkDestroy (this EcsFilter filter)
         {
             foreach (var idx in filter)
-                filter.GetEntity(idx).Get<RemoveEntityComponent>();
+                filter.GetEntity(idx).Get<DestroyEntityComponent>();
         }
     }
 }

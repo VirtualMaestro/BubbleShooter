@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Common.Names;
 using StubbUnity.StubbFramework.Core;
@@ -20,7 +21,20 @@ namespace StubbUnity.Unity.Scenes
 
         private readonly Queue<ProcessSetScenesConfig> _processingQueue = new Queue<ProcessSetScenesConfig>();
         private ProcessSetScenesConfig _currentConfig;
+        
+        public bool HasScene(in IAssetName sceneName)
+        {
+            for (var i = 0; i < SceneManager.sceneCount; i++)
+            {
+                var scene = SceneManager.GetSceneAt(i);
 
+                if (sceneName.FullName.Equals(scene.path))
+                    return true;
+            }
+
+            return false;
+        }
+        
         public void Process(ProcessSetScenesConfig config)
         {
             _processingQueue.Enqueue(config);
@@ -29,12 +43,13 @@ namespace StubbUnity.Unity.Scenes
             _ProcessNextConfig();
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void _ProcessNextConfig()
         {
             if (_processingQueue.Count == 0) return;
 
-            SceneManager.sceneLoaded += _SceneLoaded;
-            SceneManager.sceneUnloaded += _SceneUnloaded;
+            SceneManager.sceneLoaded += _OnSceneLoaded;
+            SceneManager.sceneUnloaded += _OnSceneUnloaded;
 
             _currentConfig = _processingQueue.Dequeue();
             _CollectAllScenesOnStage();
@@ -45,14 +60,14 @@ namespace StubbUnity.Unity.Scenes
                 _Unload();
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void _CollectAllScenesOnStage()
         {
             for (var i = 0; i < SceneManager.sceneCount; i++)
-            {
                 _activeScenes.Add(SceneManager.GetSceneAt(i));
-            }
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void _Load()
         {
             var loadingScenes = _currentConfig.LoadingList;
@@ -61,6 +76,7 @@ namespace StubbUnity.Unity.Scenes
                 SceneManager.LoadSceneAsync(config.Name.FullName, LoadSceneMode.Additive);
         }
 
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private void _Unload()
         {
             if (_currentConfig.UnloadOthers)
@@ -69,7 +85,71 @@ namespace StubbUnity.Unity.Scenes
                 _UnloadList();
         }
 
-        private void _SceneLoaded(Scene scene, LoadSceneMode mode)
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private void _UnloadOthers()
+        {
+            _numScenesToUnload = _activeScenes.Count;
+
+            foreach (var scene in _activeScenes)
+            {
+                if (scene.GetController(out var controller) && ((SceneController) controller).dontUnload) continue;
+                
+                SceneManager.UnloadSceneAsync(scene, UnloadSceneOptions.UnloadAllEmbeddedSceneObjects);
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private void _UnloadList()
+        {
+            var sceneNames = _currentConfig.UnloadingList;
+            _numScenesToUnload = sceneNames.Count;
+
+            foreach (var sceneName in sceneNames)
+            {
+                var sceneIndex = _activeScenes.FindIndex(activeScene => activeScene.isLoaded && activeScene.IsNameEqual(sceneName));
+                if (sceneIndex < 0) continue;
+                
+                var scene = _activeScenes[sceneIndex];
+                SceneManager.UnloadSceneAsync(scene, UnloadSceneOptions.UnloadAllEmbeddedSceneObjects);
+                _activeScenes.RemoveAt(sceneIndex);
+            }
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private void _AllScenesLoaded()
+        {
+            foreach (var sceneKeyValue in _loadedConfigs)
+            {
+                if (!sceneKeyValue.Value.GetController(out var sceneController)) continue;
+                
+                var config = sceneKeyValue.Key;
+
+                if (config.IsMain)
+                    sceneController.SetAsMain();
+    
+                if (config.IsActive)
+                    sceneController.ShowContent();
+            }
+
+            Stubb.World.NewEntity().Get<ScenesSetLoadingCompleteEvent>().ScenesSetName = _currentConfig.Name;
+        }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        private void _SceneSetProcessingComplete()
+        {
+            SceneManager.sceneLoaded -= _OnSceneLoaded;
+            SceneManager.sceneUnloaded -= _OnSceneUnloaded;
+
+            _loadedConfigs.Clear();
+            _activeScenes.Clear();
+
+            _numScenesToUnload = 0;
+            _currentConfig = null;
+
+            _ProcessNextConfig();
+        }
+        
+        private void _OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
             var loadedConfig = _currentConfig.RemoveFromLoadingList(scene.path);
             _loadedConfigs.Add(new KeyValuePair<ILoadingSceneConfig, Scene>(loadedConfig, scene));
@@ -83,31 +163,11 @@ namespace StubbUnity.Unity.Scenes
                 else
                     _SceneSetProcessingComplete();
             }
+            
+            Stubb.World.NewEntity().Get<SceneLoadingCompleteEvent>().SceneName = scene.path;
         }
-
-        private void _UnloadOthers()
-        {
-            _numScenesToUnload = _activeScenes.Count;
-
-            foreach (var scene in _activeScenes)
-                SceneManager.UnloadSceneAsync(scene, UnloadSceneOptions.UnloadAllEmbeddedSceneObjects);
-        }
-
-        private void _UnloadList()
-        {
-            var sceneNames = _currentConfig.UnloadingList;
-            _numScenesToUnload = sceneNames.Count;
-
-            foreach (var sceneName in sceneNames)
-            {
-                var sceneIndex = _activeScenes.FindIndex(activeScene => activeScene.IsNameEqual(sceneName));
-                var scene = _activeScenes[sceneIndex];
-                SceneManager.UnloadSceneAsync(scene, UnloadSceneOptions.UnloadAllEmbeddedSceneObjects);
-                _activeScenes.RemoveAt(sceneIndex);
-            }
-        }
-
-        private void _SceneUnloaded(Scene scene)
+        
+        private void _OnSceneUnloaded(Scene scene)
         {
             --_numScenesToUnload;
 
@@ -118,51 +178,6 @@ namespace StubbUnity.Unity.Scenes
                 Stubb.World.NewEntity().Get<ScenesSetUnloadingCompleteEvent>().ScenesSetName = _currentConfig.Name;
                 _SceneSetProcessingComplete();
             }
-        }
-
-        private void _AllScenesLoaded()
-        {
-            foreach (var scenes in _loadedConfigs)
-            {
-                var config = scenes.Key;
-                var scene = scenes.Value;
-                var sceneController = scene.GetController();
-
-                if (config.IsMain)
-                    sceneController?.SetAsMain();
-
-                if (config.IsActive)
-                    sceneController?.ShowContent();
-            }
-
-            Stubb.World.NewEntity().Get<ScenesSetLoadingCompleteEvent>().ScenesSetName = _currentConfig.Name;
-        }
-
-        private void _SceneSetProcessingComplete()
-        {
-            SceneManager.sceneLoaded -= _SceneLoaded;
-            SceneManager.sceneUnloaded -= _SceneUnloaded;
-
-            _loadedConfigs.Clear();
-            _activeScenes.Clear();
-
-            _numScenesToUnload = 0;
-            _currentConfig = null;
-
-            _ProcessNextConfig();
-        }
-
-        public bool HasScene(in IAssetName sceneName)
-        {
-            for (var i = 0; i < SceneManager.sceneCount; i++)
-            {
-                var scene = SceneManager.GetSceneAt(i);
-
-                if (sceneName.FullName.Equals(scene.path))
-                    return true;
-            }
-
-            return false;
         }
     }
 }

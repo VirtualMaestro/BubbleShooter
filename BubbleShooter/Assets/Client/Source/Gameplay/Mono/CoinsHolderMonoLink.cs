@@ -6,7 +6,7 @@ namespace Client.Source.Gameplay.Mono
 {
     public class CoinsHolderMonoLink : EcsViewLink
     {
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<CoinsHolderComponent>().CoinsHolder = this;
         }

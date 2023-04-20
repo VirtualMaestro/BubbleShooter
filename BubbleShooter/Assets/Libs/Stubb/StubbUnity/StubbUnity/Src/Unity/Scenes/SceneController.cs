@@ -5,6 +5,7 @@ using StubbUnity.StubbFramework.Core;
 using StubbUnity.StubbFramework.Logging;
 using StubbUnity.StubbFramework.Scenes;
 using StubbUnity.StubbFramework.Scenes.Components;
+using StubbUnity.StubbFramework.Scenes.Events;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,7 +13,11 @@ namespace StubbUnity.Unity.Scenes
 {
     public class SceneController : MonoBehaviour, ISceneController
     {
-        [SerializeField] private GameObject content;
+        public bool hasPooling;
+        public bool dontUnload;
+        
+        [SerializeField] 
+        private GameObject content;
         private Scene _scene;
         private EcsEntity _entity = EcsEntity.Null;
         private bool _shouldBeShown = true;
@@ -25,12 +30,12 @@ namespace StubbUnity.Unity.Scenes
         public bool IsContentActive => content.activeSelf;
         public bool IsMain => SceneManager.GetActiveScene() == _scene;
         public bool HasEntity => _entity != EcsEntity.Null && _entity.IsAlive();
-        public bool IsDisposed { get; private set; }
+        public bool IsDestroyed { get; private set; }
 
         private void Awake()
         {
             World = Stubb.World;
-            IsDisposed = false;
+            IsDestroyed = false;
             _scene = gameObject.scene;
             SceneName = new SceneName(_scene.name, _scene.path);
         }
@@ -48,20 +53,22 @@ namespace StubbUnity.Unity.Scenes
             else
                 _Hide();
             
-            Initialize();
+            OnInitialize();
         }
 
         private void _InitEntity()
         {
             _entity = World.NewEntity();
             _entity.Get<SceneComponent>().Scene = this;
-            _entity.Get<SceneReadyComponent>();
+            
+            // sends create event 
+            World.NewEntity().Get<SceneCreatedEvent>().Scene = this;
         }
 
         /// <summary>
         /// Init user's code here.
         /// </summary>
-        public virtual void Initialize()
+        public virtual void OnInitialize()
         {
         }
 
@@ -73,40 +80,46 @@ namespace StubbUnity.Unity.Scenes
         public void ShowContent()
         {
             _shouldBeShown = true;
-            if (IsDisposed || IsContentActive || !HasEntity) return;
+            if (IsDestroyed || IsContentActive || !HasEntity) return;
 
             _Show();
         }
 
         private void _Show()
         {
-            content.SetActive(true);
+            if (content != null)
+                content.SetActive(true);
             
             if (_entity.Has<IsSceneInactiveComponent>())
                 _entity.Del<IsSceneInactiveComponent>();
 
             _entity.Get<IsSceneActiveComponent>();
-            _entity.Get<SceneBecomeActiveComponent>();
+            
+            // sends event scene has been activated
+            World.NewEntity().Get<SceneActivatedEvent>().Scene = this;
         }
 
         public void HideContent()
         {
             _shouldBeShown = false;
             
-            if (IsDisposed || !IsContentActive || !HasEntity) return;
+            if (IsDestroyed || !IsContentActive || !HasEntity) return;
             
             _Hide();
         }
 
         private void _Hide()
         {
-            content.SetActive(false);
+            if (content != null)
+                content.SetActive(false);
             
             if (_entity.Has<IsSceneActiveComponent>())
                 _entity.Del<IsSceneActiveComponent>();
                 
             _entity.Get<IsSceneInactiveComponent>();
-            _entity.Get<SceneBecomeInactiveComponent>();
+            
+            // sends event scene has been deactivated
+            World.NewEntity().Get<SceneDeactivatedEvent>().Scene = this;
         }
 
         public void SetEntity(ref EcsEntity entity)
@@ -120,27 +133,33 @@ namespace StubbUnity.Unity.Scenes
         }
 
         /// <summary>
+        /// Method is invoked when scene is unloading.
         /// Custom user's code should be here.
         /// For unloading scene use World.UnloadScene(s).
         /// </summary>
-        public virtual void Dispose()
+        protected virtual void OnDispose()
         {
         }
 
         private void OnDestroy()
         {
-            if (IsDisposed)
+            if (IsDestroyed)
             {
                 log.Warn($"SceneController.Destroy. Controller with scene '{SceneName.FullName}' is already destroyed!");
                 return;
             }
             
-            IsDisposed = true;
+            _Hide();
             
-            Dispose();
+            OnDispose();
             
             if (HasEntity)
                 _entity.Destroy();
+            
+            // sends destroy event
+            World.NewEntity().Get<SceneDestroyedEvent>().SceneName = SceneName;
+            
+            IsDestroyed = true;
         }
     }
 }

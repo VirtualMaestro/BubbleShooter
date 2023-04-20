@@ -8,14 +8,17 @@ namespace StubbUnity.StubbFramework.Pooling
         /// Set create method which will create new instances.
         /// </summary>
         Func<T> CreateMethod { set; get; }
+       
         /// <summary>
         /// Set creator for the strategy of creating, putting and getting instances.
         /// </summary>
         ICreator<T> Creator { set; get; }
+        
         /// <summary>
         /// Get or create item from the pool.
         /// </summary>
         T Get();
+        
         /// <summary>
         /// Store item in the pool.
         /// </summary>
@@ -23,26 +26,34 @@ namespace StubbUnity.StubbFramework.Pooling
     }
     
     /// <summary>
-    /// Responsibilities:
-    /// 1. How the instance of the stored type should be created, when the pool doesn't have enough instances.
-    /// 2. How instance should be properly initialized during getting from the pool.
-    /// 3. How instance should be properly deactivated during storing it in a pool. 
+    /// Processes:
+    /// 1. How an instance is created.
+    /// 2. How an instance is put to a pool.
+    /// 3. How an instance is got from a pool.
+    /// 4. How an instance is disposed.
     /// </summary>
-    /// <typeparam name="T"></typeparam>
     public interface ICreator<T> : IDisposable
     {
         /// <summary>
-        /// Invokes when instance of poolable item has to be created.
+        /// It is invoked when an instance of a poolable item is going to be created.
         /// </summary>
-        T Create();
+        T OnCreate();
+        
         /// <summary>
-        /// Invokes when item is going to be stored in the pool.
+        /// It is invoked when an item is put in a pool.
         /// </summary>
-        void BeforeStore(T t);
+        void OnToPool(T t);
+        
         /// <summary>
-        /// Invokes when item is going to be got from the pool.
+        /// It is invoked when an item is taken from a pool.
         /// </summary>
-        void AfterRestore(T t);
+        void OnFromPool(T t);
+
+        /// <summary>
+        /// It is invoked when an item gets destroyed while clearing a pool.
+        /// </summary>
+        /// <param name="t"></param>
+        void OnDispose(T t);
     }
     
     public interface IPoolGeneric
@@ -54,44 +65,56 @@ namespace StubbUnity.StubbFramework.Pooling
         /// var item = pool.Get();
         /// </summary>
         bool IsEmpty { get; }
+        
         /// <summary>
         /// Check if the pool is full.
         /// </summary>
         bool IsFull { get; }
+        
         /// <summary>
         /// Check if the pool is destroyed.
         /// </summary>
         bool IsDisposed { get; }
+        
         /// <summary>
-        /// Returns number of how many slots still available in the pool.
+        /// Returns number of free slots still available in the pool.
         /// </summary>
-        int Available { get; }
+        int FreeSlots { get; }
+        
+        /// <summary>
+        /// Returns number of available free-to-use items in the pool.
+        /// </summary>
+        int AvailableItems { get; }
+        
         /// <summary>
         /// Total pool size.
         /// </summary>
         int Size { get; }
+        
         /// <summary>
         /// Pre-creates instances for all available slots in the pool.
         /// </summary>
         void PreWarm();
+        
         /// <summary>
         /// Pre-creates the given number of the instances in the pool.
         /// </summary>
         void PreWarm(int count);
+        
         /// <summary>
         /// Clear all the pool.
         /// </summary>
         /// <param name="shrink">if 'true' the pool will be shrunk to the 'initialCapacity'. </param>
         void Clear(bool shrink = false);
+        
         /// <summary>
         /// Dispose the pool. After this the pool can't be used anymore.
         /// </summary>
         void Dispose();
+        
         /// <summary>
         /// The event is sent before the pool is disposed of.
         /// </summary>
-        event RemovePool OnRemove;
+        event Action<IPoolGeneric, Type> OnRemove;
     }
-
-    public delegate void RemovePool(IPoolGeneric pool, Type type);
 }

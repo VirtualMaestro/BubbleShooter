@@ -5,10 +5,10 @@ namespace StubbUnity.StubbFramework.Time
     public class TimeService : ITimeService
     {
         private Stopwatch _stopwatch;
-        private long _timeStep = 0;
-        private long _elapsedMilliseconds = 0;
-        private long _prevElapsedMilliseconds = 0;
-        private long _elapsedFrames = 0;
+        private long _timeStep;
+        private long _elapsedMilliseconds;
+        private long _prevElapsedMilliseconds;
+        private long _elapsedFrames;
         
         public TimeService()
         {

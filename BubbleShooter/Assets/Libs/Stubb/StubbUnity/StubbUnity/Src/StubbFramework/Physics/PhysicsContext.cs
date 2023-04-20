@@ -14,7 +14,7 @@ namespace StubbUnity.StubbFramework.Physics
             TailFeature = new PhysicsTailFeature(World);
         }
 
-        public override void Dispose()
+        public override void Destroy()
         {
             RootSystems.Destroy();
             RootSystems = null;

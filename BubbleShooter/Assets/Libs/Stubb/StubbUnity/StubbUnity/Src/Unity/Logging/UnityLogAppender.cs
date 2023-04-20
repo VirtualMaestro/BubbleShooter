@@ -16,12 +16,12 @@ namespace StubbUnity.Unity.Logging
         {
             Mapper = new Dictionary<LogLevel, UnityLogDelegate>
             {
-                {LogLevel.Info, (message) => Debug.unityLogger.Log(LogType.Log, message)},
-                {LogLevel.Warn, (message) => Debug.unityLogger.Log(LogType.Warning, message)},
-                {LogLevel.Error, (message) => Debug.unityLogger.Log(LogType.Error, message)},
-                {LogLevel.Fatal, (message) => Debug.unityLogger.Log(LogType.Exception, message)},
-                {LogLevel.Trace, (message) => Debug.unityLogger.Log(LogType.Log, message)},
-                {LogLevel.Debug, (message) => Debug.unityLogger.Log(LogType.Log, message)}
+                {LogLevel.Info, message => Debug.unityLogger.Log(LogType.Log, message)},
+                {LogLevel.Warn, message => Debug.unityLogger.Log(LogType.Warning, message)},
+                {LogLevel.Error, message => Debug.unityLogger.Log(LogType.Error, message)},
+                {LogLevel.Fatal, message => Debug.unityLogger.Log(LogType.Exception, message)},
+                {LogLevel.Trace, message => Debug.unityLogger.Log(LogType.Log, message)},
+                {LogLevel.Debug, message => Debug.unityLogger.Log(LogType.Log, message)}
             };
         }
 	

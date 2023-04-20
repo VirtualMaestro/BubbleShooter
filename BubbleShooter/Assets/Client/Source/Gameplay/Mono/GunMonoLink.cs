@@ -19,16 +19,14 @@ namespace Client.Source.Gameplay.Mono
         public GameObject NextHolder => nextCoinHolder;
         public LineRenderer LineRenderer => lineRenderer;
         
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<GunComponent>().Gun = this;
         }
 
         private void _RotateHolder()
         {
-            var tmp = currentCoinHolder;
-            currentCoinHolder = nextCoinHolder;
-            nextCoinHolder = tmp;
+            (currentCoinHolder, nextCoinHolder) = (nextCoinHolder, currentCoinHolder);
         }
 
         private void OnMouseUpAsButton()

@@ -6,7 +6,6 @@ using Client.Source.SOConfigs;
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Core;
 using StubbUnity.StubbFramework.Logging;
-using StubbUnity.StubbFramework.Scenes.Components;
 using StubbUnity.StubbFramework.Scenes.Events;
 
 namespace Client.Source.Gameplay
@@ -14,8 +13,8 @@ namespace Client.Source.Gameplay
     public class GameplayFeature : EcsFeature, IEcsRunSystem
     {
         private readonly AppSettings _settings = null;
-        private EcsFilter<SceneComponent, SceneReadyComponent> _sceneReadyFilter;
-        private EcsFilter<SceneUnloadingCompleteEvent> _sceneUnloadedFilter;
+        private EcsFilter<SceneActivatedEvent> _sceneVisibleFilter;
+        private EcsFilter<SceneDeactivatedEvent> _sceneInvisibleFilter;
         
         public GameplayFeature() : base(false)
         {
@@ -49,15 +48,15 @@ namespace Client.Source.Gameplay
 
         public void Run()
         {
-            if (!_sceneReadyFilter.IsEmpty())
+            if (!_sceneVisibleFilter.IsEmpty())
             {
-                foreach (var idx in _sceneReadyFilter)
+                foreach (var idx in _sceneVisibleFilter)
                 {
-                    var scene = _sceneReadyFilter.Get1(idx).Scene;
+                    var sceneName = _sceneVisibleFilter.Get1(idx).Scene.SceneName;
                 
-                    if (scene.SceneName.Equals(SceneNames.GetLevel(_settings.currentLevel)))
+                    if (sceneName.Equals(SceneNames.GetLevel(_settings.currentLevel)))
                     {
-                        log.Info($"Scene ready: {scene.SceneName}");
+                        log.Info($"Scene ready: {sceneName}");
                         Enable = true;
 
                         World.NewEntity().Get<BuildLevelEvent>();
@@ -67,13 +66,13 @@ namespace Client.Source.Gameplay
                 }
             }
 
-            if (!_sceneUnloadedFilter.IsEmpty())
+            if (!_sceneInvisibleFilter.IsEmpty())
             {
-                foreach (var idx in _sceneUnloadedFilter)
+                foreach (var idx in _sceneInvisibleFilter)
                 {
-                    var sceneName = _sceneUnloadedFilter.Get1(idx).SceneName;
+                    var sceneName = _sceneInvisibleFilter.Get1(idx).Scene.SceneName;
                     
-                    if (sceneName.Equals(SceneNames.GetLevel(_settings.currentLevel).FullName))
+                    if (sceneName.Equals(SceneNames.GetLevel(_settings.currentLevel)))
                     {
                         log.Info($"Scene unloaded: {sceneName}");
                         Enable = false;

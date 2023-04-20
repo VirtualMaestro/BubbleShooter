@@ -17,7 +17,7 @@ namespace StubbUnity.StubbFramework.Core
         public EcsFeature MainFeature { get; set; }
         public EcsFeature TailFeature { get; set; }
 
-        public bool IsDisposed => _world == null;
+        public bool IsDestroyed => _world == null;
         public EcsWorld World => _world;
 
         public StubbContext() : this(new EcsWorld())
@@ -71,7 +71,7 @@ namespace StubbUnity.StubbFramework.Core
             _debugger?.Debug();
         }
 
-        public virtual void Dispose()
+        public virtual void Destroy()
         {
             RootSystems.Destroy();
             RootSystems = null;

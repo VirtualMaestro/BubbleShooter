@@ -19,7 +19,8 @@ namespace Client.Source.Common
             WinScreenSceneName = new SceneName("Win", ScenePath);
             LoseScreenSceneName = new SceneName("Lose", ScenePath);
 
-            for (var i = 1; i < 5; i++) _levels[i] = new SceneName($"Level_{i}", "Client/Scenes");
+            for (var i = 1; i < 5; i++) 
+                _levels[i] = new SceneName($"Level_{i}", "Client/Scenes");
         }
 
         public static SceneName GetLevel(int level)

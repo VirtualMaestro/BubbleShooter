@@ -14,7 +14,7 @@ namespace Client.Source.Gameplay.Mono
         public GameObject BoostIconHolder => boostIconHolder;
         public bool IsEmpty => boostIconHolder.transform.childCount == 0;
         
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<BoostIconComponent>().BoostIcon = this;
         }

@@ -6,7 +6,7 @@ namespace Client.Source.Gameplay.Mono
 {
     public class BoostIconsHolderMonoLink : EcsViewLink
     {
-        public override void Initialize()
+        public override void OnInitialize()
         {
             GetEntity().Get<BoostIconsHolderComponent>().BoostIconsHolder = this;
         }

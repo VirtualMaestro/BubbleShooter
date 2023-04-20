@@ -6,26 +6,24 @@ namespace StubbUnity.StubbFramework.Scenes.Configurations
 {
     public class ProcessSetScenesConfig
     {
-        private List<ILoadingSceneConfig> _loadingList;
-        private List<IAssetName> _unloadingList;
-
         public string Name;
         public bool UnloadOthers;
 
-        public List<ILoadingSceneConfig> LoadingList => _loadingList;
-        public List<IAssetName> UnloadingList => _unloadingList;
-        public bool IsEmpty => _loadingList.Count == 0;
-        public bool HasUnloading => UnloadOthers || _unloadingList.Count > 0;
+        public List<ILoadingSceneConfig> LoadingList { get; }
+        public List<IAssetName> UnloadingList { get; }
+
+        public bool IsEmpty => LoadingList.Count == 0;
+        public bool HasUnloading => UnloadOthers || UnloadingList.Count > 0;
         
         public ProcessSetScenesConfig()
         {
-            _loadingList = new List<ILoadingSceneConfig>();
-            _unloadingList = new List<IAssetName>();
+            LoadingList = new List<ILoadingSceneConfig>();
+            UnloadingList = new List<IAssetName>();
         }
         
         public void AddToLoad(ILoadingSceneConfig config)
         {
-            _loadingList.Add(config);
+            LoadingList.Add(config);
         }
 
         public void AddToLoad(List<ILoadingSceneConfig> configs)
@@ -34,13 +32,13 @@ namespace StubbUnity.StubbFramework.Scenes.Configurations
             
             foreach (var config in configs)
             {
-                _loadingList.Add(config);
+                LoadingList.Add(config);
             }
         }
 
         public void AddToUnload(IAssetName sceneName)
         {
-            _unloadingList.Add(sceneName);
+            UnloadingList.Add(sceneName);
         }
         
         public void AddToUnload(List<IAssetName> sceneNames)
@@ -49,7 +47,7 @@ namespace StubbUnity.StubbFramework.Scenes.Configurations
             
             foreach (var sceneName in sceneNames)
             {
-                _unloadingList.Add(sceneName);
+                UnloadingList.Add(sceneName);
             }
         }
         
@@ -57,14 +55,14 @@ namespace StubbUnity.StubbFramework.Scenes.Configurations
         {
             ILoadingSceneConfig config = null;
 
-            for (var i = 0; i < _loadingList.Count; i++)
+            for (var i = 0; i < LoadingList.Count; i++)
             {
-                var cfg = _loadingList[i];
+                var cfg = LoadingList[i];
 
                 if (cfg.Name.FullName.Equals(sceneName))
                 {
                     config = cfg;
-                    _loadingList.RemoveAt(i);
+                    LoadingList.RemoveAt(i);
 
                     break;
                 }
@@ -75,8 +73,8 @@ namespace StubbUnity.StubbFramework.Scenes.Configurations
 
         public void Dispose()
         {
-            _loadingList.Clear();
-            _unloadingList.Clear();
+            LoadingList.Clear();
+            UnloadingList.Clear();
             
             UnloadOthers = false;
             Name = null;
