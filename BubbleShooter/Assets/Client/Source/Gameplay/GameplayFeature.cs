@@ -13,8 +13,8 @@ namespace Client.Source.Gameplay
     public class GameplayFeature : EcsFeature, IEcsRunSystem
     {
         private readonly AppSettings _settings = null;
-        private EcsFilter<SceneActivatedEvent> _sceneVisibleFilter;
-        private EcsFilter<SceneDeactivatedEvent> _sceneInvisibleFilter;
+        private EcsFilter<SceneActivatedEvent> _sceneActivatedFilter;
+        private EcsFilter<SceneDeactivatedEvent> _sceneDeactivatedFilter;
         
         public GameplayFeature() : base(false)
         {
@@ -48,11 +48,11 @@ namespace Client.Source.Gameplay
 
         public void Run()
         {
-            if (!_sceneVisibleFilter.IsEmpty())
+            if (!_sceneActivatedFilter.IsEmpty())
             {
-                foreach (var idx in _sceneVisibleFilter)
+                foreach (var idx in _sceneActivatedFilter)
                 {
-                    var sceneName = _sceneVisibleFilter.Get1(idx).Scene.SceneName;
+                    var sceneName = _sceneActivatedFilter.Get1(idx).Scene.SceneName;
                 
                     if (sceneName.Equals(SceneNames.GetLevel(_settings.currentLevel)))
                     {
@@ -66,11 +66,11 @@ namespace Client.Source.Gameplay
                 }
             }
 
-            if (!_sceneInvisibleFilter.IsEmpty())
+            if (!_sceneDeactivatedFilter.IsEmpty())
             {
-                foreach (var idx in _sceneInvisibleFilter)
+                foreach (var idx in _sceneDeactivatedFilter)
                 {
-                    var sceneName = _sceneInvisibleFilter.Get1(idx).Scene.SceneName;
+                    var sceneName = _sceneDeactivatedFilter.Get1(idx).Scene.SceneName;
                     
                     if (sceneName.Equals(SceneNames.GetLevel(_settings.currentLevel)))
                     {
