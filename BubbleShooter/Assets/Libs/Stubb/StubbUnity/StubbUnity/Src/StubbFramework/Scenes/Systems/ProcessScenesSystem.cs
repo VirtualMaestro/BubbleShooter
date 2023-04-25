@@ -1,14 +1,14 @@
 ﻿using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Scenes.Configurations;
 using StubbUnity.StubbFramework.Scenes.Events;
-using StubbUnity.Unity.Scenes;
+using StubbUnity.StubbFramework.Scenes.Services;
 
 namespace StubbUnity.StubbFramework.Scenes.Systems
 {
     public sealed class ProcessScenesSystem : IEcsRunSystem
     {
         private EcsFilter<ProcessScenesEvent> _loadScenesFilter;
-        private SceneService _sceneService;
+        private ISceneService _sceneService;
 
         public void Run()
         {

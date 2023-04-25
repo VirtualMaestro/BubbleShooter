@@ -1,8 +1,6 @@
 using System;
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Debugging;
-using StubbUnity.StubbFramework.Scenes.Services;
-using StubbUnity.StubbFramework.Time;
 
 namespace StubbUnity.StubbFramework.Core
 {
@@ -59,8 +57,6 @@ namespace StubbUnity.StubbFramework.Core
 
             _debugger?.Init(RootSystems, World);
 
-            _InjectServices();
-
             RootSystems.ProcessInjects();
             RootSystems.Init();
         }
@@ -82,12 +78,6 @@ namespace StubbUnity.StubbFramework.Core
                 _world.Destroy();
                 _world = null;
             }
-        }
-        
-        private void _InjectServices()
-        {
-            Inject(ServiceMapper<ITimeService>.Get());
-            Inject(ServiceMapper<ISceneService>.Get());
         }
     }
 }

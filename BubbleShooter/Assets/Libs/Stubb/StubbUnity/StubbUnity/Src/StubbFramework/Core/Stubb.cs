@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Physics;
-using StubbUnity.StubbFramework.Time;
 
 namespace StubbUnity.StubbFramework.Core
 {
@@ -45,11 +44,6 @@ namespace StubbUnity.StubbFramework.Core
         public static void Clear()
         {
             _contexts = new List<IStubbContext>(3);
-        }
-
-        static Stubb()
-        {
-            ServiceMapper<ITimeService>.Map(typeof(TimeService));
         }
     }
 }

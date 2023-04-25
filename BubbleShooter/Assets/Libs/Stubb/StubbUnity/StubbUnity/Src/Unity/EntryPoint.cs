@@ -5,7 +5,7 @@ using StubbUnity.StubbFramework.Core.Events;
 using StubbUnity.StubbFramework.Debugging;
 using StubbUnity.StubbFramework.Logging;
 using StubbUnity.StubbFramework.Physics;
-using StubbUnity.StubbFramework.Scenes.Services;
+using StubbUnity.StubbFramework.Time;
 using StubbUnity.Unity.Debugging;
 using StubbUnity.Unity.Logging;
 using StubbUnity.Unity.Scenes;
@@ -33,7 +33,7 @@ namespace StubbUnity.Unity
             _context = CreateContext();
             _physicsContext = CreatePhysicsContext();
 
-            _MapServices();
+            MapServices(_context);
             OnConstruct(_context);
 
             if (!enableUiEmitter) return;
@@ -106,6 +106,15 @@ namespace StubbUnity.Unity
         {
             return default;
         }
+        
+        /// <summary>
+        /// Maps Unity specific services.
+        /// </summary>
+        protected void MapServices(IStubbContext context)
+        {
+            context.Inject(new SceneService());
+            context.Inject(new TimeService());
+        }
 
         private void Update()
         {
@@ -121,14 +130,6 @@ namespace StubbUnity.Unity
         {
             _context.Destroy();
             _physicsContext?.Destroy();
-        }
-
-        /// <summary>
-        /// Maps Unity specific services.
-        /// </summary>
-        private void _MapServices()
-        {
-            ServiceMapper<ISceneService>.Map(typeof(SceneService));
         }
 
         private void OnApplicationFocus(bool hasFocus)
