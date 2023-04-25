@@ -21,18 +21,12 @@ namespace Client.Source.Gameplay.Services
 
         public GameObject CreateCoin(CoinType coinType, Transform parent)
         {
-            var prefab = _settings.coins.GetCoin(coinType);
-            var coin = Object.Instantiate(prefab, parent);
-            coin.GetComponent<CoinMonoLink>().SetData(CoinData.Get(coinType));
-            return coin;
+            return _CreateCoin(coinType, CoinData.Get(coinType), parent); 
         }
 
         public GameObject CreateCoin(CoinData data, Transform parent)
         {
-            var prefab = _settings.coins.GetCoin(data.CoinType);
-            var coin = Object.Instantiate(prefab, parent);
-            coin.GetComponent<CoinMonoLink>().SetData(data);
-            return coin;
+            return _CreateCoin(data.CoinType, data, parent); 
         }
 
         public GameObject CreateRandomCoin(Transform parent)
@@ -47,7 +41,6 @@ namespace Client.Source.Gameplay.Services
             var coinType = (CoinType) _enums.GetValue(randIndex);
             return coinType;
         }
-            
 
         public CoinData CreateCoinData()
         {
@@ -72,6 +65,14 @@ namespace Client.Source.Gameplay.Services
         public GameObject CreateBoostIcon(GameObject prefab, Transform parent)
         {
             return Object.Instantiate(prefab, parent);
+        }
+        
+        private GameObject _CreateCoin(CoinType coinType, CoinData coinData, Transform parent)
+        {
+            var prefab = _settings.coins.GetCoin(coinType);
+            var coin = Object.Instantiate(prefab, parent);
+            coin.GetComponent<CoinMonoLink>().SetData(coinData);
+            return coin;
         }
     }
 }

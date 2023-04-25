@@ -29,7 +29,7 @@ namespace Client.Source.Gameplay.Systems
             
             ref var trajectoryEvent = ref _startDrawTrajectoryFilter.First().Get<StartDrawTrajectoryEvent>();
             var direction = trajectoryEvent.End - trajectoryEvent.Start;
-            var success = TrajectoryUtil.HitTest(trajectoryEvent.Start, direction, _path, out var hitObj, "coin", "ceil");
+            var success = TrajectoryUtil.HitTest(trajectoryEvent.Start, direction, _path, out _, "coin", "ceil");
             var lineRenderer = _gunFilter.Single().Gun.LineRenderer;
             lineRenderer.enabled = success;
             
