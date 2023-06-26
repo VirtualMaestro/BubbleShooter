@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using UnityEditor;
 
 namespace StubbUnity.Unity.Utils
@@ -27,3 +28,4 @@ namespace StubbUnity.Unity.Utils
         }
     }
 }
+#endif
