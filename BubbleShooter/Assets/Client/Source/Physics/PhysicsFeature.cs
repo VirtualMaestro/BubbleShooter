@@ -1,6 +1,5 @@
 ﻿using Leopotam.Ecs;
 using StubbUnity.StubbFramework.Core;
-using StubbUnity.StubbFramework.Extensions;
 
 namespace Client.Source.Physics
 {

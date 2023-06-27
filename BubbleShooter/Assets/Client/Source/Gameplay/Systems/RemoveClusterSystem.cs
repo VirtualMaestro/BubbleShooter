@@ -13,7 +13,7 @@ namespace Client.Source.Gameplay.Systems
         private EcsFilter<LevelConfigComponent> _levelConfigFilter;
         private HexGrid _grid;
         private EcsWorld _world;
-        private readonly List<CoinData> _coinDataListHelper = new List<CoinData>(10);
+        private readonly List<CoinData> _coinDataListHelper = new(10);
         
         public void Run()
         {

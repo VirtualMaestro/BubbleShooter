@@ -11,7 +11,7 @@ namespace Client.Source.Gameplay.Systems
         private EcsFilter<CoinComponent, CoinProcessComponent, CoinBombBoosterComponent> _coinBombFilter;
         private HexGrid _grid;
         private EcsWorld _world;
-        private readonly List<CoinData> _neighbors = new List<CoinData>();
+        private readonly List<CoinData> _neighbors = new();
         
         public void Run()
         {

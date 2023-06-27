@@ -15,7 +15,7 @@ namespace Client.Source.Gameplay.Systems
         private HexGrid _grid;
         private EcsWorld _world;
 
-        private readonly List<CoinData> _neighbors = new List<CoinData>(10);
+        private readonly List<CoinData> _neighbors = new(10);
         
         public void Run()
         {

@@ -25,9 +25,9 @@ namespace Client.Source.Hex
         private int _rows;
         private int _numElements;
 
-        private readonly HashSet<int> _alreadyInProcessingQueue = new HashSet<int>();
-        private readonly Queue<CoinData> _processingQueue = new Queue<CoinData>(10);
-        private readonly List<CoinData> _neighbors = new List<CoinData>(6);
+        private readonly HashSet<int> _alreadyInProcessingQueue = new();
+        private readonly Queue<CoinData> _processingQueue = new(10);
+        private readonly List<CoinData> _neighbors = new(6);
 
         private readonly Dictionary<NeighborOffset, Vector2Int> _neighborMapEven;
         private readonly Dictionary<NeighborOffset, Vector2Int> _neighborMapOdd;
@@ -46,7 +46,6 @@ namespace Client.Source.Hex
             _neighborMapEven[NeighborOffset.TopRight] = new Vector2Int(0, -1);
             _neighborMapEven[NeighborOffset.BottomLeft] = new Vector2Int(-1, 1);
             _neighborMapEven[NeighborOffset.BottomRight] = new Vector2Int(0, 1);
-
             
             _neighborMapOdd = new Dictionary<NeighborOffset, Vector2Int>();
             _neighborMapOdd[NeighborOffset.Left] = new Vector2Int(-1, 0);

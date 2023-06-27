@@ -4,7 +4,7 @@
     {
         private static int _idGen;
 
-        public static CoinData Get(CoinType type) => new CoinData(type);
+        public static CoinData Get(CoinType type) => new(type);
 
         private readonly CoinMask _mask;
         
