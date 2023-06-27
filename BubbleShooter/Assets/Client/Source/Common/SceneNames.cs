@@ -11,7 +11,7 @@ namespace Client.Source.Common
         public static readonly SceneName WinScreenSceneName;
         public static readonly SceneName LoseScreenSceneName;
 
-        private static readonly Dictionary<int, SceneName> _levels = new Dictionary<int, SceneName>();
+        private static readonly Dictionary<int, SceneName> Levels = new();
 
         static SceneNames()
         {
@@ -20,12 +20,12 @@ namespace Client.Source.Common
             LoseScreenSceneName = new SceneName("Lose", ScenePath);
 
             for (var i = 1; i < 5; i++) 
-                _levels[i] = new SceneName($"Level_{i}", "Client/Scenes");
+                Levels[i] = new SceneName($"Level_{i}", ScenePath);
         }
 
         public static SceneName GetLevel(int level)
         {
-            return _levels[level];
+            return Levels[level];
         }
     }
 }
