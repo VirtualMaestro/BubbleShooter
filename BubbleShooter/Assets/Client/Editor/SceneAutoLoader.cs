@@ -1,6 +1,7 @@
 ﻿using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Client.Editor
 {
@@ -17,7 +18,7 @@ namespace Client.Editor
 	/// http://forum.unity3d.com/threads/157502-Executing-first-scene-in-build-settings-when-pressing-play-button-in-editor
 	/// </description>
 	[InitializeOnLoad]
-	static class SceneAutoLoader
+	internal static class SceneAutoLoader
 	{
 		// Static constructor binds a playmode-changed callback.
 		// [InitializeOnLoad] above makes sure this gets executed.
@@ -30,13 +31,14 @@ namespace Client.Editor
 		[MenuItem("File/Scene Autoload/Select Master Scene...")]
 		private static void SelectMasterScene()
 		{
-			string masterScene = EditorUtility.OpenFilePanel("Select Master Scene", Application.dataPath, "unity");
+			var masterScene = EditorUtility.OpenFilePanel("Select Master Scene", Application.dataPath, "unity");
 			masterScene = masterScene.Replace(Application.dataPath, "Assets");	//project relative instead of absolute path
-			if (!string.IsNullOrEmpty(masterScene))
-			{
-				MasterScene = masterScene;
-				LoadMasterOnPlay = true;
-			}
+
+			if (string.IsNullOrEmpty(masterScene)) 
+				return;
+			
+			MasterScene = masterScene;
+			LoadMasterOnPlay = true;
 		}
  
 		[MenuItem("File/Scene Autoload/Load Master On Play", true)]
@@ -74,7 +76,8 @@ namespace Client.Editor
 			if (!EditorApplication.isPlaying && EditorApplication.isPlayingOrWillChangePlaymode)
 			{
 				// User pressed play -- autoload master scene.
-				PreviousScene = EditorSceneManager.GetActiveScene().path;
+				PreviousScene = SceneManager.GetActiveScene().path;
+				
 				if (EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo())
 				{
 					try
@@ -85,7 +88,6 @@ namespace Client.Editor
 					{
 						Debug.LogError($"error: scene not found: {MasterScene}");
 						EditorApplication.isPlaying = false;
- 
 					}
 				}
 				else
@@ -129,7 +131,7 @@ namespace Client.Editor
  
 		private static string PreviousScene
 		{
-			get => EditorPrefs.GetString(EditorPrefPreviousScene, EditorSceneManager.GetActiveScene().path);
+			get => EditorPrefs.GetString(EditorPrefPreviousScene, SceneManager.GetActiveScene().path);
 			set => EditorPrefs.SetString(EditorPrefPreviousScene, value);
 		}
 	}
