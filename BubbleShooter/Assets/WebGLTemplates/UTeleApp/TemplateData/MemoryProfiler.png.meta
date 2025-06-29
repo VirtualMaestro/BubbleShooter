@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c113de6f0a340de40a49bf444f4146b1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/MemoryProfiler.png
+  uploadId: 718709

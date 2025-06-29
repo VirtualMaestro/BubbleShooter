@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4bcb466a86f08c243a21cb4faca5e155
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/OmnInteractive/UTeleApp/Examples/Scenes/Demo.unity
+  uploadId: 718709

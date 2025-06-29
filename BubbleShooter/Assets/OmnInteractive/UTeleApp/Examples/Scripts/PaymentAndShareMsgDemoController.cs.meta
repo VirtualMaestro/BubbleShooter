@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 56d9e606e148eb94b83c078e83ec6bac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/OmnInteractive/UTeleApp/Examples/Scripts/PaymentAndShareMsgDemoController.cs
+  uploadId: 718709

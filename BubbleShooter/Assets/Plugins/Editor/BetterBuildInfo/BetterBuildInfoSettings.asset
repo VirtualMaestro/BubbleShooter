@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2134237631, guid: 4ea45da357db064409e3e753413f52b1, type: 3}
+  m_Name: BetterBuildInfoSettings
+  m_EditorClassIdentifier: 
+  mode: 1
+  autoOpenReportAfterBuild: 1
+  collectAssetsDetails: 1
+  checkAssetsCompressedSize: 0
+  checkAssetBundles: 0
+  outputPath: BuildReports/{buildtarget}_{date}_{time}.bbi
+  cloudBuildOutputPath: '{builddir}/{buildtarget}_{date}_{time}.bbi'
+  doubleClickSelect: 0
+  showTotalSizeColumn: 0
+  syncSelection: 1
+  debugLogEnabled: 0
+  profilingLogEnabled: 0
+  assetBundleFilters:
+  - AssetBundles/*
+  androidTargetArchitectureFilters:
+  - '*.arm64-*'
+  - '*.armeabi-*'
+  - '*'
+  categories:
+  - name: Unity Built-in
+    color: {r: 1, g: 0.61960787, b: 0.78431374, a: 1}
+    filters:
+    - Resources/unity_builtin_extra
+    - Library/unity default resources
+    - Resources/unity default resources
+  - name: Streaming Assets
+    color: {r: 0.9843137, g: 0.58431375, b: 0.8392157, a: 1}
+    filters:
+    - Assets/StreamingAssets/*
+  - name: Texture
+    color: {r: 0.6431373, g: 0.63529414, b: 0.94509804, a: 1}
+    filters:
+    - '*.png'
+    - '*.tga'
+    - '*.bmp'
+    - '*.tif'
+    - '*.tiff'
+    - '*.psd'
+    - '*.jpg'
+  - name: Cubemap
+    color: {r: 0.972549, g: 0.7254902, b: 0.74509805, a: 1}
+    filters:
+    - '*.cubemap'
+  - name: Lightmap
+    color: {r: 0.7607843, g: 0.6039216, b: 0.6431373, a: 1}
+    filters:
+    - '*Lightmap-*.exr'
+  - name: Reflection Probes
+    color: {r: 0.74509805, g: 0.7490196, b: 1, a: 1}
+    filters:
+    - '*ReflectionProbe-*.exr'
+  - name: Scene
+    color: {r: 0.6313726, g: 0.69803923, b: 0.69411767, a: 1}
+    filters:
+    - '*.unity'
+  - name: Prefab
+    color: {r: 0.9490196, g: 0.7647059, b: 0.78431374, a: 1}
+    filters:
+    - '*.prefab'
+  - name: Material
+    color: {r: 0.827451, g: 0.79607844, b: 1, a: 1}
+    filters:
+    - '*.mat'
+  - name: Shader
+    color: {r: 1, g: 0.9372549, b: 0.827451, a: 1}
+    filters:
+    - '*.shader'
+  - name: Code
+    color: {r: 0.67058825, g: 0.90588236, b: 1, a: 1}
+    filters:
+    - '*.dll'
+    - '*.cs'
+    - '*.js'
+  - name: Sound
+    color: {r: 0.88235295, g: 0.8117647, b: 0.7490196, a: 1}
+    filters:
+    - '*.wav'
+    - '*.mp3'
+    - '*.ogg'
+  - name: Binary Assets
+    color: {r: 0.7254902, g: 0.6784314, b: 0.7294118, a: 1}
+    filters:
+    - '*.bytes'
+  - name: Models
+    color: {r: 0.99607843, g: 0.9764706, b: 1, a: 1}
+    filters:
+    - '*.fbx'
+    - '*.obj'
+  - name: Animations
+    color: {r: 0.8235294, g: 0.8156863, b: 0.8509804, a: 1}
+    filters:
+    - '*.anim'
+    - '*.controller'
+  - name: Text Assets
+    color: {r: 0.7137255, g: 0.8509804, b: 0.7921569, a: 1}
+    filters:
+    - '*.xml'
+    - '*.txt'
+  - name: Sprite Atlases
+    color: {r: 0.8, g: 0.92156863, b: 0.84313726, a: 1}
+    filters:
+    - Sprite Atlas*
+    - '*.spriteatlas'
+  - name: Misc Assets
+    color: {r: 0.9607843, g: 0.64705884, b: 0.7058824, a: 1}
+    filters:
+    - '*.asset'
+  xMIs_HvaO3vnrby4upfvf7E: []

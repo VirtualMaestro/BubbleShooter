@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 4ea45da357db064409e3e753413f52b1
+timeCreated: 1487385429
+licenseType: Store
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  platformData:
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 1
+      settings:
+        DefaultValueInitialized: true
+    WindowsStoreApps:
+      enabled: 0
+      settings:
+        CPU: AnyCPU
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70329
+  packageName: Better Build Info - Report Tool
+  packageVersion: 1.10.1
+  assetPath: Assets/Plugins/Editor/BetterBuildInfo/BetterBuildInfo.dll
+  uploadId: 736681

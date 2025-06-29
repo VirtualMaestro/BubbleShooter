@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df5f9805847f4794aa513ec9bd55e3e9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/progress-bar-full-light.png
+  uploadId: 718709

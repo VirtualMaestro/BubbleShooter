@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e6a882c8c324ebb4ebf7dfc1c83d5041
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/fullscreen-button.png
+  uploadId: 718709

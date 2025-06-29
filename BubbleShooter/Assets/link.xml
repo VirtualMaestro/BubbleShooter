@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <!-- Unity системы -->
+  <assembly fullname="Unity.Collections" preserve="all"/>
+  
+  <!-- ECS системы -->
+  <assembly fullname="Leopotam.Ecs" preserve="all"/>
+  <assembly fullname="DOTween" preserve="all"/>
+  
+  <!-- Ваш основной код -->
+  <assembly fullname="Assembly-CSharp">
+    <!-- 🎯 Весь StubbFramework -->
+    <namespace fullname="StubbUnity.StubbFramework" preserve="all"/>
+    
+    <!-- Или более точечно: -->
+    <type fullname="StubbUnity.StubbFramework.Scenes.*" preserve="all"/>
+    <type fullname="StubbUnity.StubbFramework.Pooling.*" preserve="all"/>
+    <type fullname="StubbUnity.StubbFramework.Core.*" preserve="all"/>
+    
+    <!-- Все конфигурации -->
+    <type fullname="*Config" preserve="all"/>
+    <type fullname="*Event" preserve="all"/>
+    <type fullname="*System" preserve="all"/>
+  </assembly>
+</linker>

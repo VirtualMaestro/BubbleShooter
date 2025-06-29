@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5854a3957ed50b0408804d34ba68fc0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/OmnInteractive/UTeleApp/Runtime/Scripts/Classes/BackButton.cs
+  uploadId: 718709

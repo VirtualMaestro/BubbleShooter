@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 88431667ff3e5b54aa71ceecb3230650
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/index.html
+  uploadId: 718709

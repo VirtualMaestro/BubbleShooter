@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8fb0d65aa5b048649a3a785b82b8f8db
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32416
+  packageName: DOTween Pro
+  packageVersion: 1.0.380
+  assetPath: Assets/Plugins/Demigiant/DOTweenPro/DOTweenTextMeshPro.cs
+  uploadId: 642067

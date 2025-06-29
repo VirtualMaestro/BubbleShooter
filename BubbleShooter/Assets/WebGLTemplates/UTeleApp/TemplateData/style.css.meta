@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 57e7e8f94e13a9e43a9b5302b2466441
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/style.css
+  uploadId: 718709

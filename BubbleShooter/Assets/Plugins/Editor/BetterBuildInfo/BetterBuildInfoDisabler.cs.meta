@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 0bea812f13c11b54db5117dd71b768fc
+timeCreated: 1486942960
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 70329
+  packageName: Better Build Info - Report Tool
+  packageVersion: 1.10.1
+  assetPath: Assets/Plugins/Editor/BetterBuildInfo/BetterBuildInfoDisabler.cs
+  uploadId: 736681

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 48ea191d0e77fba4c86680863eb9f720
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/OmnInteractive/UTeleApp/Examples/Scripts/UserProfileDemoController.cs
+  uploadId: 718709

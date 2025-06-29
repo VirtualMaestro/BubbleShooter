@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 630f4e582a3499a428ecc1bfb195d92b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/unity-logo-light.png
+  uploadId: 718709

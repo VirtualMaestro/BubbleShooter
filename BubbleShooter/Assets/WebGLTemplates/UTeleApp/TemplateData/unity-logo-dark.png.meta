@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0bf1cbdb03692c4438226634f461cfb2
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/unity-logo-dark.png
+  uploadId: 718709

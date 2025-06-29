@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 22292a5f27a9a644ba9e6ad1bf863531
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 32416
+  packageName: DOTween Pro
+  packageVersion: 1.0.380
+  assetPath: Assets/Plugins/Demigiant/DOTweenPro/Editor/DOTweenPreviewManager.cs
+  uploadId: 642067

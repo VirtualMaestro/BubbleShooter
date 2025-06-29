@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c952e8e432b30a348bd0525cda639a5e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/WebGLTemplates/UTeleApp/TemplateData/unity-logo-title-footer.png
+  uploadId: 718709

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9370fc90db0d6124b80cfe3ddcdcf596
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300734
+  packageName: UTeleApp - Tools for Telegram Mini Apps
+  packageVersion: 1.1.3
+  assetPath: Assets/OmnInteractive/UTeleApp/Runtime/Scripts/Classes/LocationManager.cs
+  uploadId: 718709
